@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../assets/fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf");
+}
+
+@font-face {
+    font-family:'Lemon Milk';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf");
+}
+
+$fuente_BSP: 'Alfa Slab One';
+$fuente_subtitulo: 'Lemon Milk';
