@@ -1,11 +1,16 @@
-.bsp{
-    font-family: $fuente_BSP;
-    font-size: 5rem;
+main.index{
+    background-color: $gris-claro;
+    background: linear-gradient($gris-claro, $azul-oscuro);
+    padding-top: 20vh;
+    section.primeraSeccionIndex{
+        display: flex;
+        height: 100vh;
+        img{
+            max-width: 40rem;
+            margin: 0 auto;
+        }
+    }
+    section.segundaSeccionIndex{
+        height: 100vh;
+    }
 }
-
-.subtitulo{
-    font-family: $fuente_subtitulo;
-    font-style: italic;
-    font-size: 2rem;
-}
-

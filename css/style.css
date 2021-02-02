@@ -35,22 +35,29 @@ a:hover {
   font-weight: normal;
   src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf"); }
 
-.bsp {
-  font-family: "Alfa Slab One";
-  font-size: 5rem; }
-
-.subtitulo {
-  font-family: "Lemon Milk";
-  font-style: italic;
-  font-size: 2rem; }
+main.index {
+  background-color: #e2e3cf;
+  background: linear-gradient(#e2e3cf, #09123d);
+  padding-top: 20vh; }
+  main.index section.primeraSeccionIndex {
+    display: flex;
+    height: 100vh; }
+    main.index section.primeraSeccionIndex img {
+      max-width: 40rem;
+      margin: 0 auto; }
+  main.index section.segundaSeccionIndex {
+    height: 100vh; }
 
 header {
+  z-index: 15;
   background: linear-gradient(to right, #09123d, #457373);
   border-radius: 0 0 15px 15px;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
-  box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
-  header nav div a img {
-    height: 3rem; }
+  box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; }
   header nav div button.navbar-toggler {
     outline: 0; }
     header nav div button.navbar-toggler:focus {
@@ -67,3 +74,14 @@ header {
           color: #e2e3cf;
           text-decoration: underline;
           text-decoration-color: #e2e3cf; }
+
+@media only screen and (max-device-width: 337px) {
+  nav.navbar div {
+    display: flex;
+    justify-content: center !important; }
+    nav.navbar div a img {
+      height: 2rem; } }
+
+@media (min-device-width: 337px) and (max-device-width: 100000px) {
+  nav div a img {
+    height: 2.5rem; } }
