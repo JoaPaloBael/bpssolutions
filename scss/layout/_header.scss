@@ -11,21 +11,23 @@ header {
                     height: 3rem;
                 }
             }
-            button{
-                border: solid 2px $gris-claro !important;
+            button.navbar-toggler{
+                outline: 0;
+                &:focus{
+                    box-shadow: 0px 0px 0px 3px rgba(226, 227, 207, 0.1);
+                }
             }
-
             div {
                 justify-content: flex-end;
                 margin-right: 3rem;
 
                 ul {
                     li {
-                        margin-right: 1rem;
+                        margin-right: .5rem;
 
                         a {
                             color: $gris-claro;
-                            font-size: 1.5rem;
+                            font-size: 1.2rem;
 
                             &:hover {
                                 color: $gris-claro;
@@ -39,3 +41,5 @@ header {
         }
     }
 }
+
+
