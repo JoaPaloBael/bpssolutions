@@ -11,6 +11,9 @@ header {
                     height: 3rem;
                 }
             }
+            button{
+                border: solid 2px $gris-claro !important;
+            }
 
             div {
                 justify-content: flex-end;

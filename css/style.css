@@ -51,6 +51,8 @@ header {
   box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
   header nav div a img {
     height: 3rem; }
+  header nav div button {
+    border: solid 2px #e2e3cf !important; }
   header nav div div {
     justify-content: flex-end;
     margin-right: 3rem; }
