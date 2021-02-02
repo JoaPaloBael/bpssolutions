@@ -45,6 +45,21 @@ a:hover {
   font-size: 2rem; }
 
 header {
-  background-color: blue; }
-  header nav ul li a {
-    color: whitesmoke; }
+  background: linear-gradient(to right, #09123d, #457373);
+  border-radius: 0 0 15px 15px;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
+  header nav div a img {
+    height: 3rem; }
+  header nav div div {
+    justify-content: flex-end;
+    margin-right: 3rem; }
+    header nav div div ul li {
+      margin-right: 1rem; }
+      header nav div div ul li a {
+        color: #e2e3cf;
+        font-size: 1.5rem; }
+        header nav div div ul li a:hover {
+          color: #e2e3cf;
+          text-decoration: underline;
+          text-decoration-color: #e2e3cf; }

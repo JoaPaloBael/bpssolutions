@@ -1,11 +1,36 @@
-header{
-    background-color: blue;
+header {
+    background: linear-gradient(to right, $azul-oscuro, $azul-claro);
+    border-radius: 0 0 15px 15px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35);
 
-    nav{
-        ul{
-            li{
-                a{
-                    color:whitesmoke;
+    nav {
+        div {
+            a {
+                img {
+                    height: 3rem;
+                }
+            }
+
+            div {
+                justify-content: flex-end;
+                margin-right: 3rem;
+
+                ul {
+                    li {
+                        margin-right: 1rem;
+
+                        a {
+                            color: $gris-claro;
+                            font-size: 1.5rem;
+
+                            &:hover {
+                                color: $gris-claro;
+                                text-decoration: underline;
+                                text-decoration-color: $gris-claro;
+                            }
+                        }
+                    }
                 }
             }
         }
