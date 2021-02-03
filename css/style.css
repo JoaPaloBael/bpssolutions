@@ -40,24 +40,41 @@ main.index {
   main.index section.primeraSeccionIndex {
     display: flex;
     flex-direction: column;
-    height: 88vh;
+    justify-content: center;
     margin-bottom: 2rem; }
-    main.index section.primeraSeccionIndex img {
+    main.index section.primeraSeccionIndex img.imalogotipoHero {
       max-width: 40rem;
       margin: 0 auto;
       margin-top: 13vh; }
+    main.index section.primeraSeccionIndex img.asesoriaTuristica {
+      animation-delay: 1s;
+      align-self: center;
+      max-width: 30rem;
+      margin-top: 2rem; }
     main.index section.primeraSeccionIndex a {
+      margin-top: 3rem;
       background-color: inherit; }
       main.index section.primeraSeccionIndex a i {
         display: flex;
         justify-content: center;
-        padding-top: 2rem;
+        padding-top: 1rem;
         color: #457373;
         font-size: 48px; }
         main.index section.primeraSeccionIndex a i:hover {
           color: #233a5e; }
   main.index section.segundaSeccionIndex {
-    height: 100vh; }
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2rem 1rem 2rem 2rem; }
+    main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
+      max-width: 550px; }
+      main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo h3 {
+        font-family: 'Alfa Slab One', cursive; }
+      main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo p {
+        font-family: 'Roboto', sans-serif; }
 
 header {
   z-index: 15;
