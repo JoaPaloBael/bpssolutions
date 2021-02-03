@@ -1,16 +1,36 @@
-main.index{
+main.index {
     background-color: $gris-claro;
-    background: linear-gradient($gris-claro, $azul-oscuro);
-    padding-top: 20vh;
-    section.primeraSeccionIndex{
+
+    section.primeraSeccionIndex {
         display: flex;
-        height: 100vh;
-        img{
+        flex-direction: column;
+        height: 88vh;
+        margin-bottom: 2rem;
+
+        img {
             max-width: 40rem;
             margin: 0 auto;
+            margin-top: 13vh;
         }
+
+        a {
+            background-color: inherit;
+            i {
+                display: flex;
+                justify-content: center;
+                padding-top: 2rem;
+                color: $azul-claro;
+                font-size: 48px;
+
+                &:hover{
+                    color:$azul-medio;
+                }
+            }
+        }
+
     }
-    section.segundaSeccionIndex{
+
+    section.segundaSeccionIndex {
         height: 100vh;
     }
 }

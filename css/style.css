@@ -36,15 +36,26 @@ a:hover {
   src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf"); }
 
 main.index {
-  background-color: #e2e3cf;
-  background: linear-gradient(#e2e3cf, #09123d);
-  padding-top: 20vh; }
+  background-color: #e2e3cf; }
   main.index section.primeraSeccionIndex {
     display: flex;
-    height: 100vh; }
+    flex-direction: column;
+    height: 88vh;
+    margin-bottom: 2rem; }
     main.index section.primeraSeccionIndex img {
       max-width: 40rem;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-top: 13vh; }
+    main.index section.primeraSeccionIndex a {
+      background-color: inherit; }
+      main.index section.primeraSeccionIndex a i {
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        color: #457373;
+        font-size: 48px; }
+        main.index section.primeraSeccionIndex a i:hover {
+          color: #233a5e; }
   main.index section.segundaSeccionIndex {
     height: 100vh; }
 
@@ -57,7 +68,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; }
+  width: 100vw;
+  height: 12vh; }
   header nav div button.navbar-toggler {
     outline: 0; }
     header nav div button.navbar-toggler:focus {
