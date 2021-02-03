@@ -4,7 +4,7 @@ main.index {
     section.primeraSeccionIndex {
         display: flex;
         flex-direction: column;
-        height: 88vh;
+        max-height: 88vh;
         margin-bottom: 2rem;
 
         img {
