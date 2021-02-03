@@ -8,7 +8,7 @@ header {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 12vh;
+    max-height: 12vh;
 
     nav {
         background: linear-gradient(to right, $azul-oscuro, $azul-claro);
