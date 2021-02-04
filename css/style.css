@@ -36,7 +36,7 @@ a:hover {
   src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf"); }
 
 main.index {
-  background-color: #CCCCCC; }
+  background-color: #e2e3cf; }
   main.index section.primeraSeccionIndex {
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ main.index {
       max-width: 550px; }
       main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo h3 {
         background-color: #09123d;
-        color: #CCCCCC;
+        color: #e2e3cf;
         font-family: 'Alfa Slab One', cursive; }
       main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo p {
         font-family: 'Roboto', sans-serif; }
@@ -108,12 +108,12 @@ header {
       header nav div div ul li {
         margin-right: .5rem; }
         header nav div div ul li a {
-          color: #CCCCCC;
+          color: #e2e3cf;
           font-size: 1.2rem; }
           header nav div div ul li a:hover {
-            color: #CCCCCC;
+            color: #e2e3cf;
             text-decoration: underline;
-            text-decoration-color: #CCCCCC; }
+            text-decoration-color: #e2e3cf; }
 
 @media only screen and (max-device-width: 337px) {
   nav.navbar div {
