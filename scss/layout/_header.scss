@@ -11,6 +11,9 @@ header {
     height: 12vh;
 
     nav {
+        background: linear-gradient(to right, $azul-oscuro, $azul-claro);
+        border-radius: 0 0 15px 15px;
+
         div {
 
             button.navbar-toggler {

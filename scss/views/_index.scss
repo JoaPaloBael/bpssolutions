@@ -47,11 +47,24 @@ main.index {
         div.segundaSeccionIndex__parrafo{
             max-width: 550px;
             h3{
+                background-color: $azul-oscuro;
+                color: $gris-claro;
                 font-family: 'Alfa Slab One', cursive;
             }
             p{
                 font-family: 'Roboto', sans-serif;
             }
+        }
+    }
+
+    section.terceraSeccionIndex{
+        display: flex;
+        justify-content: center;
+
+        div.terceraSeccionIndex__parrafo{
+            text-align: center;
+            width: 60vw;
+
         }
     }
 }
