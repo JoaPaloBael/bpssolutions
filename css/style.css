@@ -95,20 +95,21 @@ main.index {
         font-size: 2.5rem; }
   main.index section.terceraSeccionIndex {
     display: flex;
-    justify-content: center;
-    padding: 3rem; }
+    justify-content: center; }
     main.index section.terceraSeccionIndex div.terceraSeccionIndex__parrafo {
       font-size: 2.5rem;
       text-align: center;
       width: 60vw;
       color: #233a5e; }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1283px) {
   main.index section.segundaSeccionIndex {
     flex-direction: column;
     align-items: center; }
     main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
-      margin-bottom: 2rem; } }
+      margin-bottom: 2rem; }
+  main.index section.terceraSeccionIndex div.terceraSeccionIndex__parrafo {
+    font-size: 2rem; } }
 
 header {
   z-index: 15;
@@ -134,6 +135,7 @@ header {
       header nav div div ul li {
         margin-right: .5rem; }
         header nav div div ul li a {
+          font-family: 'Roboto', sans-serif;
           color: #CCCCCC;
           font-size: 1.2rem; }
           header nav div div ul li a:hover {
@@ -153,4 +155,31 @@ header {
     height: 2.5rem; } }
 
 footer {
-  background-color: #457373; }
+  background-color: #457373;
+  font-family: 'Roboto', sans-serif; }
+  footer section.redes__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    padding: 1rem; }
+    footer section.redes__footer div {
+      display: flex;
+      flex-direction: column; }
+      footer section.redes__footer div ul li a {
+        color: #e2e3cf;
+        display: flex;
+        flex: row;
+        align-items: center; }
+        footer section.redes__footer div ul li a i {
+          font-size: 2rem; }
+        footer section.redes__footer div ul li a p {
+          font-family: 'Roboto', sans-serif;
+          font-size: 1rem;
+          align-self: center;
+          margin-bottom: 0; }
+  footer section.copy__footer {
+    display: flex;
+    flex-direction: row; }
+    footer section.copy__footer p {
+      font-family: 'Roboto', sans-serif; }

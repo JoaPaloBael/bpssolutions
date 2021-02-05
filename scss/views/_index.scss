@@ -74,7 +74,6 @@ main.index {
     section.terceraSeccionIndex{
         display: flex;
         justify-content: center;
-        padding: 3rem;
 
         div.terceraSeccionIndex__parrafo{
             font-size: 2.5rem;
@@ -86,7 +85,7 @@ main.index {
 
 }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1283px) {
     main.index{
         section.segundaSeccionIndex{
             flex-direction: column;
@@ -94,7 +93,11 @@ main.index {
             div.segundaSeccionIndex__parrafo{
                 margin-bottom: 2rem;
             }
-
+        }
+        section.terceraSeccionIndex{
+            div.terceraSeccionIndex__parrafo{
+                font-size: 2rem;
+            }
         }
     }
 }

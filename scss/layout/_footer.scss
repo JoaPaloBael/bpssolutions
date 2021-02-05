@@ -1,6 +1,41 @@
 footer{
     background-color: $azul-claro;
+    font-family: 'Roboto', sans-serif;
     section.redes__footer{
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+        padding: 1rem;
+        div{
+            display: flex;
+            flex-direction: column;
+            ul{
+                li{
+                    a{
+                        color: $fondo-claro;
+                        display: flex;
+                        flex: row;
+                        align-items: center;
+                        i{
+                            font-size: 2rem;
+                        }
+                        p{
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 1rem;
+                            align-self: center;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section.copy__footer{
+        display: flex;
+        flex-direction: row;
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
     }
 }
