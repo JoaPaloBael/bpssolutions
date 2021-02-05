@@ -36,6 +36,10 @@ a:hover {
   font-weight: normal;
   src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf"); }
 
+.bsp_bold {
+  font-weight: bold;
+  font-style: italic; }
+
 main.index {
   background-color: #CCCCCC; }
   main.index section.primeraSeccionIndex {
@@ -69,15 +73,15 @@ main.index {
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: space-between;
-    margin: 2rem 1rem 2rem 2rem; }
+    justify-content: space-around;
+    margin: 2rem; }
     main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
       max-width: 550px;
       background-color: #e2e3cf;
-      border-radius: 0 0 10px 10px; }
+      border-radius: 0 0 15px 15px; }
       main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo h3 {
         background-color: #09123d;
-        color: #CCCCCC;
+        color: #e2e3cf;
         font-family: 'Alfa Slab One', cursive;
         border-radius: 0 0 10px 10px;
         padding: .5rem 0;
@@ -87,12 +91,24 @@ main.index {
         font-size: 1.3rem;
         margin: 1rem;
         padding: .5rem; }
+      main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo i {
+        font-size: 2.5rem; }
   main.index section.terceraSeccionIndex {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding: 3rem; }
     main.index section.terceraSeccionIndex div.terceraSeccionIndex__parrafo {
+      font-size: 2.5rem;
       text-align: center;
-      width: 60vw; }
+      width: 60vw;
+      color: #233a5e; }
+
+@media only screen and (max-device-width: 1280px) {
+  main.index section.segundaSeccionIndex {
+    flex-direction: column;
+    align-items: center; }
+    main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
+      margin-bottom: 2rem; } }
 
 header {
   z-index: 15;
@@ -103,7 +119,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 99vw;
   max-height: 12vh; }
   header nav {
     background: linear-gradient(to right, #09123d, #457373);
@@ -135,3 +151,6 @@ header {
 @media (min-device-width: 337px) and (max-device-width: 100000px) {
   nav div a img {
     height: 2.5rem; } }
+
+footer {
+  background-color: #457373; }
