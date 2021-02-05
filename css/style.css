@@ -3,7 +3,8 @@
   padding: 0;
   border: 0;
   outline: none;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  box-sizing: border-box; }
 
 ul, ol {
   list-style: none; }
@@ -36,7 +37,7 @@ a:hover {
   src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf"); }
 
 main.index {
-  background-color: #e2e3cf; }
+  background-color: #CCCCCC; }
   main.index section.primeraSeccionIndex {
     display: flex;
     flex-direction: column;
@@ -71,13 +72,21 @@ main.index {
     justify-content: space-between;
     margin: 2rem 1rem 2rem 2rem; }
     main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
-      max-width: 550px; }
+      max-width: 550px;
+      background-color: #e2e3cf;
+      border-radius: 0 0 10px 10px; }
       main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo h3 {
         background-color: #09123d;
-        color: #e2e3cf;
-        font-family: 'Alfa Slab One', cursive; }
+        color: #CCCCCC;
+        font-family: 'Alfa Slab One', cursive;
+        border-radius: 0 0 10px 10px;
+        padding: .5rem 0;
+        box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
       main.index section.segundaSeccionIndex div.segundaSeccionIndex__parrafo p {
-        font-family: 'Roboto', sans-serif; }
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        margin: 1rem;
+        padding: .5rem; }
   main.index section.terceraSeccionIndex {
     display: flex;
     justify-content: center; }
@@ -109,12 +118,12 @@ header {
       header nav div div ul li {
         margin-right: .5rem; }
         header nav div div ul li a {
-          color: #e2e3cf;
+          color: #CCCCCC;
           font-size: 1.2rem; }
           header nav div div ul li a:hover {
-            color: #e2e3cf;
+            color: #CCCCCC;
             text-decoration: underline;
-            text-decoration-color: #e2e3cf; }
+            text-decoration-color: #CCCCCC; }
 
 @media only screen and (max-device-width: 337px) {
   nav.navbar div {

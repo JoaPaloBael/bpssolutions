@@ -47,13 +47,23 @@ main.index {
         margin: 2rem 1rem 2rem 2rem;
         div.segundaSeccionIndex__parrafo{
             max-width: 550px;
+            background-color: $fondo-claro;
+            border-radius: 0 0 10px 10px;
             h3{
                 background-color: $azul-oscuro;
                 color: $gris-claro;
                 font-family: 'Alfa Slab One', cursive;
+                border-radius: 0 0 10px 10px;
+                padding: .5rem 0;
+                box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35);
+
             }
             p{
                 font-family: 'Roboto', sans-serif;
+                font-size: 1.3rem;
+                margin: 1rem;
+                padding: .5rem;
+
             }
         }
     }
