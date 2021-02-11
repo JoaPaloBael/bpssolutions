@@ -6,16 +6,47 @@
 }
 
 @font-face {
-    font-family:'Lemon Milk';
-    font-style: italic;
-    font-weight: normal;
+    font-family:'LemonMilk_bold';
+    font-style: bold;
+    src: url("../../assets/fonts/lemon_milk/LEMONMILK-Bold.otf");
+}
+
+@font-face {
+    font-family:'LemonMilk_boldItalic';
+    font-style: bold, italic;
+    src: url("../../assets/fonts/lemon_milk/LEMONMILK-BoldItalic.otf");
+}
+
+@font-face {
+    font-family:'Lemon Milk_light';
+    font-style: initial;
+    src: url("../../assets/fonts/lemon_milk/LEMONMILK-Light.otf");
+}
+
+@font-face {
+    font-family:'Lemon Milk_lightItalic';
+    font-style: italic, initial;
+    src: url("../../assets/fonts/lemon_milk/LEMONMILK-LightItalic.otf");
+}
+
+
+@font-face {
+    font-family:'Lemon Milk_regular';
+    font-style: normal;
+    src: url("../../assets/fonts/lemon_milk/LEMONMILK-Regular.otf");
+}
+
+
+@font-face {
+    font-family:'Lemon Milk_regularItalic';
+    font-style: normal,italic;
     src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf");
 }
 
-$fuente_BSP: 'Alfa Slab One';
-$fuente_subtitulo: 'Lemon Milk';
-
-.bsp_bold{
-    font-weight: bold;
-    font-style: italic;
+.bsp{
+    font-family: 'Alfa Slab One';
+}
+.solutions{
+    font-family: 'Lemon Milk_lightItalic';
+    font-size: 12px;
 }

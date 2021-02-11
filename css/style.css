@@ -31,14 +31,41 @@ a:hover {
   src: url("../../assets/fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf"); }
 
 @font-face {
-  font-family: 'Lemon Milk';
-  font-style: italic;
-  font-weight: normal;
+  font-family: 'LemonMilk_bold';
+  font-style: bold;
+  src: url("../../assets/fonts/lemon_milk/LEMONMILK-Bold.otf"); }
+
+@font-face {
+  font-family: 'LemonMilk_boldItalic';
+  font-style: bold, italic;
+  src: url("../../assets/fonts/lemon_milk/LEMONMILK-BoldItalic.otf"); }
+
+@font-face {
+  font-family: 'Lemon Milk_light';
+  font-style: initial;
+  src: url("../../assets/fonts/lemon_milk/LEMONMILK-Light.otf"); }
+
+@font-face {
+  font-family: 'Lemon Milk_lightItalic';
+  font-style: italic, initial;
+  src: url("../../assets/fonts/lemon_milk/LEMONMILK-LightItalic.otf"); }
+
+@font-face {
+  font-family: 'Lemon Milk_regular';
+  font-style: normal;
+  src: url("../../assets/fonts/lemon_milk/LEMONMILK-Regular.otf"); }
+
+@font-face {
+  font-family: 'Lemon Milk_regularItalic';
+  font-style: normal,italic;
   src: url("../../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf"); }
 
-.bsp_bold {
-  font-weight: bold;
-  font-style: italic; }
+.bsp {
+  font-family: 'Alfa Slab One'; }
+
+.solutions {
+  font-family: 'Lemon Milk_lightItalic';
+  font-size: 12px; }
 
 main.index {
   background-color: #CCCCCC; }
@@ -101,6 +128,8 @@ main.index {
       text-align: center;
       width: 60vw;
       color: #233a5e; }
+      main.index section.terceraSeccionIndex div.terceraSeccionIndex__parrafo p {
+        font-family: 'Domine', serif; }
 
 @media only screen and (max-device-width: 1283px) {
   main.index section.segundaSeccionIndex {
