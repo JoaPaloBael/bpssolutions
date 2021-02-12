@@ -74,12 +74,18 @@ main.index {
     section.terceraSeccionIndex{
         display: flex;
         justify-content: center;
+        padding: 2rem 0;
+
 
         div.terceraSeccionIndex__parrafo{
+            box-shadow: 1px 5px 16px 8px rgba(0, 0, 0, 0.35);
+            border-radius: 15px;
+            padding: 2rem 9rem;
+            background-color: $azul-medio;
             font-size: 2.5rem;
             text-align: center;
             width: 60vw;
-            color: $azul-medio;
+            color: $fondo-claro;
             p{
                 font-family: 'Domine', serif;
             }

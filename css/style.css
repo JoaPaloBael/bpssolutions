@@ -122,12 +122,17 @@ main.index {
         font-size: 2.5rem; }
   main.index section.terceraSeccionIndex {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding: 2rem 0; }
     main.index section.terceraSeccionIndex div.terceraSeccionIndex__parrafo {
+      box-shadow: 1px 5px 16px 8px rgba(0, 0, 0, 0.35);
+      border-radius: 15px;
+      padding: 2rem 9rem;
+      background-color: #233a5e;
       font-size: 2.5rem;
       text-align: center;
       width: 60vw;
-      color: #233a5e; }
+      color: #e2e3cf; }
       main.index section.terceraSeccionIndex div.terceraSeccionIndex__parrafo p {
         font-family: 'Domine', serif; }
 
@@ -190,25 +195,35 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: auto;
-    padding: 1rem; }
+    height: auto; }
     footer section.redes__footer div {
       display: flex;
       flex-direction: column; }
-      footer section.redes__footer div ul li a {
-        color: #e2e3cf;
-        display: flex;
-        flex: row;
-        align-items: center; }
-        footer section.redes__footer div ul li a i {
-          font-size: 2rem; }
-        footer section.redes__footer div ul li a p {
-          font-family: 'Roboto', sans-serif;
-          font-size: 1rem;
-          align-self: center;
-          margin-bottom: 0; }
+      footer section.redes__footer div ul li {
+        padding-top: 1rem; }
+        footer section.redes__footer div ul li a {
+          color: #e2e3cf;
+          display: flex;
+          flex: row;
+          align-items: center; }
+          footer section.redes__footer div ul li a:hover {
+            color: #09123d; }
+          footer section.redes__footer div ul li a i {
+            font-size: 2rem; }
+          footer section.redes__footer div ul li a p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            align-self: center;
+            margin-bottom: 0;
+            margin-left: 14px; }
   footer section.copy__footer {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: center; }
     footer section.copy__footer p {
-      font-family: 'Roboto', sans-serif; }
+      font-family: 'Roboto', sans-serif;
+      margin: 1rem .5rem 0 .5rem; }
+      footer section.copy__footer p a {
+        color: inherit; }
+        footer section.copy__footer p a:hover {
+          color: #CCCCCC; }
