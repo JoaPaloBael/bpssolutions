@@ -1,6 +1,10 @@
 footer{
     background-color: $azul-claro;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+
     section.redes__footer{
         display: flex;
         flex-direction: row;

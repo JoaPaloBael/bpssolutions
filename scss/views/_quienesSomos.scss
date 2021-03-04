@@ -1,18 +1,28 @@
 main.quienesSomos{
     background-color: $gris-claro;
-    height: 79vh;
-    padding: 15vh;
+    padding: 15vh 10vh 15vh 15vh;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        max-height: 27rem;
+    }
     div{
         display: flex;
-        justify-content: center;
-        background-image: url('../../assets/quienesSomosFondo.png');
-        background-repeat: no-repeat;
-        height: 61vh;
+        flex-direction: column;
+        align-items: flex-end;
         p{
             display: flex;
-            max-width: 50vw;
             text-align: center;
             align-items: center;
+            font-size: 1.3rem;
+            padding: 1.4rem;
+            max-width: 48rem;
+            min-width: 20rem;
         }
+    }
+
+    @media screen and (max-width: 1200px){
+        background-position: center 2rem;
     }
 }

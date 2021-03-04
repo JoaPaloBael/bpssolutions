@@ -147,19 +147,27 @@ main.index {
 
 main.quienesSomos {
   background-color: #CCCCCC;
-  height: 79vh;
-  padding: 15vh; }
+  padding: 15vh 10vh 15vh 15vh;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  main.quienesSomos img {
+    max-height: 27rem; }
   main.quienesSomos div {
     display: flex;
-    justify-content: center;
-    background-image: url("../../assets/quienesSomosFondo.png");
-    background-repeat: no-repeat;
-    height: 61vh; }
+    flex-direction: column;
+    align-items: flex-end; }
     main.quienesSomos div p {
       display: flex;
-      max-width: 50vw;
       text-align: center;
-      align-items: center; }
+      align-items: center;
+      font-size: 1.3rem;
+      padding: 1.4rem;
+      max-width: 48rem;
+      min-width: 20rem; }
+  @media screen and (max-width: 1200px) {
+    main.quienesSomos {
+      background-position: center 2rem; } }
 
 header {
   z-index: 15;
@@ -206,7 +214,10 @@ header {
 
 footer {
   background-color: #457373;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  width: 100%;
+  bottom: 0; }
   footer section.redes__footer {
     display: flex;
     flex-direction: row;
