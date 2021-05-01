@@ -95,110 +95,94 @@ main {
         font-size: 48px; }
         main section.primeraSeccionIndex a i:hover {
           color: #233a5e; }
-  main section.segundaSeccionIndex {
+  main section.queEsBSP section.segundaSeccionIndex {
     height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin: 2rem; }
-    main section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
+    margin: 5rem 5rem 0rem 5rem; }
+    main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
       max-width: 550px;
       background-color: #e2e3cf;
       border-radius: 0 0 15px 15px; }
-      main section.segundaSeccionIndex div.segundaSeccionIndex__parrafo h3 {
+      main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo h3 {
         background-color: #09123d;
         color: #e2e3cf;
         font-family: 'Alfa Slab One', cursive;
         border-radius: 0 0 10px 10px;
         padding: .5rem 0;
         box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
-      main section.segundaSeccionIndex div.segundaSeccionIndex__parrafo p {
+      main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo p {
         font-family: 'Roboto', sans-serif;
         font-size: 1.3rem;
         margin: 1rem;
         padding: .5rem; }
-      main section.segundaSeccionIndex div.segundaSeccionIndex__parrafo i {
+      main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo i {
         font-size: 2.5rem; }
-  main section.terceraSeccionIndex {
-    /* increase header size after 600px */
-    /* Blockquote subheader */ }
-    main section.terceraSeccionIndex .blockquote-wrapper {
-      display: flex;
-      height: 70vh;
-      padding: 0 20px;
-      /* Blockquote main style */ }
-      main section.terceraSeccionIndex .blockquote-wrapper div.blockquote {
-        position: relative;
-        font-family: 'Alfa Slab One';
-        max-width: 620px;
-        margin: 80px auto;
-        align-self: center;
-        /* Blockquote header */ }
-        main section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3 {
-          font-family: 'Alfa Slab One';
-          position: relative;
-          /* for pseudos */
-          color: #09123d;
-          font-size: 2.8rem;
-          font-weight: normal;
-          line-height: 1;
-          margin: 0;
-          border: 2px solid #09123d;
-          border-radius: 20px;
-          padding: 25px;
-          /* Blockquote right double quotes */ }
-          main section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3::before {
-            content: "";
-            position: absolute;
-            width: 80px;
-            border: 6px solid #CCCCCC;
-            bottom: -3px;
-            left: 50px;
-            z-index: 2; }
-          main section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3::after {
-            content: "";
-            position: absolute;
-            border: 2px solid #09123d;
-            border-radius: 0 60px 0 0;
-            width: 60px;
-            height: 60px;
-            bottom: -60px;
-            left: 50px;
-            border-bottom: none;
-            border-left: none;
-            z-index: 3; }
-          main section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3 span {
-            font-family: 'Alfa Slab One'; }
-    @media all and (min-width: 600px) {
-      main section.terceraSeccionIndex .blockquote h3 {
-        font-size: 3rem;
-        line-height: 1.2; } }
-    main section.terceraSeccionIndex .blockquote h4 {
+  main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper {
+    display: flex;
+    padding: 0 20px;
+    /* Blockquote main style */ }
+    main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote {
       position: relative;
-      color: white;
-      font-size: 1.3rem;
-      font-weight: 400;
-      line-height: 1.2;
-      margin: 0;
-      padding-top: 15px;
-      z-index: 1;
-      margin-left: 150px;
-      padding-left: 12px; }
-    main section.terceraSeccionIndex .blockquote h4:first-letter {
-      margin-left: -12px; }
-  @media (min-width: 1220px) and (max-width: 1000000px) {
-    main section.segundaSeccionIndex {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around; }
-      main section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
-        margin-bottom: 2rem; }
-    main section.terceraSeccionIndex div.terceraSeccionIndex__parrafo {
-      font-size: 2rem; } }
+      font-family: 'Alfa Slab One';
+      max-width: 620px;
+      margin: 40px auto;
+      align-self: center;
+      /* Blockquote header */
+      /* Blockquote subheader */ }
+      main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3 {
+        font-family: 'Alfa Slab One';
+        position: relative;
+        /* for pseudos */
+        color: #09123d;
+        font-size: 2.8rem;
+        font-weight: normal;
+        line-height: 1;
+        margin: 0;
+        border: 2px solid #09123d;
+        border-radius: 20px;
+        padding: 25px;
+        /* Blockquote right double quotes */ }
+        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3::before {
+          content: "";
+          position: absolute;
+          width: 80px;
+          border: 6px solid #CCCCCC;
+          bottom: -3px;
+          left: 50px;
+          z-index: 2; }
+        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3::after {
+          content: "";
+          position: absolute;
+          border: 2px solid #09123d;
+          border-radius: 0 60px 0 0;
+          width: 60px;
+          height: 60px;
+          bottom: -60px;
+          left: 50px;
+          border-bottom: none;
+          border-left: none;
+          z-index: 3; }
+        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3 span {
+          font-family: 'Alfa Slab One'; }
+      main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h4 {
+        position: relative;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+        padding-top: 15px;
+        z-index: 1;
+        margin-left: 150px;
+        padding-left: 12px; }
+        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h4::first-letter {
+          margin-left: -12px; }
 
 section.quienesSomos {
-  padding: 2rem;
+  padding: 2rem 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -210,14 +194,15 @@ section.quienesSomos {
     display: flex;
     flex-direction: column;
     max-width: 45rem;
-    max-height: 31rem; }
+    max-height: 31rem;
+    border-radius: 10px; }
     section.quienesSomos div.texto p {
       font-weight: light;
       color: white;
       display: flex;
       text-align: center;
       align-items: center;
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding: 1rem; }
   @media screen and (max-width: 1200px) {
     section.quienesSomos {
