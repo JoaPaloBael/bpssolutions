@@ -1,4 +1,4 @@
-main.index {
+main {
     background-color: $gris-claro;
 
     section.primeraSeccionIndex {
@@ -81,26 +81,98 @@ main.index {
     }
 
     section.terceraSeccionIndex {
-        display: flex;
-        justify-content: center;
-        padding: 2rem 0;
+        .blockquote-wrapper {
+            display: flex;
+            height: 70vh;
+            padding: 0 20px;
 
+            /* Blockquote main style */
+            div.blockquote {
+                position: relative;
+                font-family: 'Alfa Slab One';
+                max-width: 620px;
+                margin: 80px auto;
+                align-self: center;
 
-        div.terceraSeccionIndex__parrafo {
-            box-shadow: 1px 5px 16px 8px rgba(0, 0, 0, 0.35);
-            border-radius: 15px;
-            background-color: $azul-medio;
-            font-size: 2.5rem;
-            text-align: center;
-            width: 60vw;
-            color: $fondo-claro;
-            padding: 1rem 2rem;
+                /* Blockquote header */
+                h3 {
+                    font-family: 'Alfa Slab One';
+                    position: relative;
+                    /* for pseudos */
+                    color: $azul-oscuro;
+                    font-size: 2.8rem;
+                    font-weight: normal;
+                    line-height: 1;
+                    margin: 0;
+                    border: 2px solid $azul-oscuro;
+                    border-radius: 20px;
+                    padding: 25px;
 
-            p {
-                font-family: 'Domine', serif;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 80px;
+                        border: 6px solid #CCCCCC;
+                        bottom: -3px;
+                        left: 50px;
+                        z-index: 2;
+                    }
+
+                    /* Blockquote right double quotes */
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        border: 2px solid $azul-oscuro;
+                        border-radius: 0 60px 0 0;
+                        width: 60px;
+                        height: 60px;
+                        bottom: -60px;
+                        left: 50px;
+                        border-bottom: none;
+                        border-left: none;
+                        z-index: 3;
+                    }
+
+                    span {
+                        font-family: 'Alfa Slab One';
+                    }
+                }
             }
         }
+
+
+
+
+
+        /* increase header size after 600px */
+        @media all and (min-width: 600px) {
+            .blockquote h3 {
+                font-size: 3rem;
+                line-height: 1.2;
+            }
+
+        }
+
+        /* Blockquote subheader */
+        .blockquote h4 {
+            position: relative;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.2;
+            margin: 0;
+            padding-top: 15px;
+            z-index: 1;
+            margin-left: 150px;
+            padding-left: 12px;
+        }
+
+
+        .blockquote h4:first-letter {
+            margin-left: -12px;
+        }
     }
+
 
 
 
