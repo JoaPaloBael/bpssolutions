@@ -1,24 +1,35 @@
 main.quienesSomos{
-    background-color: $gris-claro;
+    background: $degradado-gris;
     padding: 15vh 10vh 15vh 15vh;
-    height: 100%;
+    height: 79vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     img{
-        max-height: 27rem;
+        max-height: 31rem;
     }
     div{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        p{
+        width: 38vw;
+        div{
             display: flex;
-            text-align: center;
             align-items: center;
-            font-size: 1.3rem;
-            padding: 1.4rem;
-            max-width: 48rem;
-            min-width: 20rem;
+            i{
+                color: $fondo-claro;
+                font-size: 2rem;
+            }
+            p{
+                color: white;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                font-size: 1.3rem;
+                padding: 1.4rem;
+                max-width: 48rem;
+                min-width: 20rem;
+            }
         }
     }
 

@@ -146,25 +146,34 @@ main.index {
       font-size: 2rem; } }
 
 main.quienesSomos {
-  background-color: #CCCCCC;
+  background: linear-gradient(to right, #df0c0c 0%, #757575 100%);
   padding: 15vh 10vh 15vh 15vh;
-  height: 100%;
+  height: 79vh;
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-around;
+  align-items: center; }
   main.quienesSomos img {
-    max-height: 27rem; }
+    max-height: 31rem; }
   main.quienesSomos div {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; }
-    main.quienesSomos div p {
+    align-items: flex-end;
+    width: 38vw; }
+    main.quienesSomos div div {
       display: flex;
-      text-align: center;
-      align-items: center;
-      font-size: 1.3rem;
-      padding: 1.4rem;
-      max-width: 48rem;
-      min-width: 20rem; }
+      align-items: center; }
+      main.quienesSomos div div i {
+        color: #e2e3cf;
+        font-size: 2rem; }
+      main.quienesSomos div div p {
+        color: white;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 1.3rem;
+        padding: 1.4rem;
+        max-width: 48rem;
+        min-width: 20rem; }
   @media screen and (max-width: 1200px) {
     main.quienesSomos {
       background-position: center 2rem; } }
@@ -179,7 +188,7 @@ header {
   top: 0;
   left: 0;
   width: 99vw;
-  max-height: 12vh; }
+  height: 7vh; }
   header nav {
     background: linear-gradient(to right, #09123d, #457373);
     border-radius: 0 0 15px 15px; }
@@ -217,7 +226,8 @@ footer {
   font-family: 'Roboto', sans-serif;
   position: relative;
   width: 100%;
-  bottom: 0; }
+  bottom: 0;
+  height: 21vh; }
   footer section.redes__footer {
     display: flex;
     flex-direction: row;
