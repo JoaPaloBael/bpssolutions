@@ -1,18 +1,26 @@
 {
   "name": "bspsolutions",
   "version": "1.0.0",
-  "description": "",
+  "description": "//COMO EMPEZAR A COMPILAR SASS//",
   "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "node-sass": "^6.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaPaloBael/bpssolutions.git"
+  },
   "author": "Johanna Palo Bael",
   "license": "ISC",
-  "dependencies": {
-    "animate.css": "^4.1.1",
-    "node-sass": "^5.0.0",
-    "nodemon": "^2.0.7"
-  }
+  "bugs": {
+    "url": "https://github.com/JoaPaloBael/bpssolutions/issues"
+  },
+  "homepage": "https://github.com/JoaPaloBael/bpssolutions#readme"
 }
