@@ -53,3 +53,32 @@ footer{
         }
     }
 }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width:350px) {
+    footer {
+        section.redes__footer {
+            div {
+                ul {
+                    justify-content: space-evenly;
+                    li {
+                        a {
+                            i{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section.copy__footer {
+            flex-direction: column;
+            p.spacer{
+                display: none;
+            }
+            p{
+                margin: 0.3rem 0 0 0;
+            }
+        }
+    }
+}

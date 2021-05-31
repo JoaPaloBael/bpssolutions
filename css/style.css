@@ -89,24 +89,14 @@ main {
         main section.presentacion a i:hover {
           color: #233a5e; }
 
-.divisor-libro {
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-  .divisor-libro svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 61px; }
-    .divisor-libro svg .shape-fill {
-      fill: #CCCCCC; }
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .divisor-libro svg {
-    width: calc(100% + 1.3px);
-    height: 32px; } }
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  main section.presentacion img.imalogotipoHero {
+    margin-top: 20vh; }
+  main section.presentacion img.asesoriaTuristica {
+    padding: 0 1rem; }
+  main section.presentacion a {
+    margin: 0; } }
 
 section.queEsBSP section.queEs_textos {
   height: auto;
@@ -195,6 +185,45 @@ section.queEsBSP section.slogan .blockquote-wrapper {
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
         margin-left: -12px; }
 
+.divisor-libro {
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+  .divisor-libro svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px; }
+    .divisor-libro svg .shape-fill {
+      fill: #CCCCCC; }
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .divisor-libro svg {
+    width: calc(100% + 1.3px);
+    height: 32px; } }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
+    font-size: 1.4rem; }
+  section.queEsBSP section.queEs_textos div.queEs_parrafo p {
+    font-size: 1rem; }
+  section.queEsBSP section.queEs_textos div.queEs_parrafo i {
+    font-size: 1.6rem; }
+  section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
+    margin: 10px auto; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
+      font-size: 1.1rem; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
+        width: 30px;
+        height: 30px;
+        bottom: -30px; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
+      margin-left: 0;
+      padding-top: 40px; } }
+
 section.quienesSomos {
   padding: 0 1rem;
   display: flex;
@@ -218,6 +247,15 @@ section.quienesSomos {
   @media screen and (max-width: 1200px) {
     section.quienesSomos {
       background-position: center 2rem; } }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  section.quienesSomos div.texto {
+    padding-bottom: 1rem; }
+    section.quienesSomos div.texto p {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      font-size: 1rem; } }
 
 header {
   z-index: 15;
@@ -300,3 +338,16 @@ footer {
         color: inherit; }
         footer section.copy__footer p a:hover {
           color: #CCCCCC; }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  footer section.redes__footer div ul {
+    justify-content: space-evenly; }
+    footer section.redes__footer div ul li a i {
+      font-size: 2rem; }
+  footer section.copy__footer {
+    flex-direction: column; }
+    footer section.copy__footer p.spacer {
+      display: none; }
+    footer section.copy__footer p {
+      margin: 0.3rem 0 0 0; } }

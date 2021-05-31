@@ -114,3 +114,65 @@ section.queEsBSP {
         }
     }
 }
+
+.divisor-libro {
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 61px;
+        .shape-fill {
+            fill: #CCCCCC;
+        }
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .divisor-libro svg {
+        width: calc(100% + 1.3px);
+        height: 32px;
+    }
+}
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width:350px) {
+    section.queEsBSP {
+        section.queEs_textos {
+            div.queEs_parrafo {
+                h3{
+                    font-size: 1.4rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                i{
+                    font-size: 1.6rem;
+                }
+            }
+        }
+        section.slogan {
+            .blockquote-wrapper {
+                div.blockquote {
+                    margin: 10px auto;
+                    h3{
+                        font-size: 1.1rem;
+                        &::after{
+                            width: 30px;
+                            height: 30px;
+                            bottom: -30px;
+                        }
+                    }
+                    h4{
+                        margin-left: 0;
+                        padding-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

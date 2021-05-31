@@ -40,27 +40,20 @@ main {
     }
 
 }
-.divisor-libro {
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 61px;
-        .shape-fill {
-            fill: #CCCCCC;
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width:350px) {
+    main {
+        section.presentacion {
+            img.imalogotipoHero {
+                margin-top: 20vh;
+            }
+            img.asesoriaTuristica{
+                padding: 0 1rem;
+            }
+            a{
+                margin: 0;
+            }
         }
     }
 }
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .divisor-libro svg {
-        width: calc(100% + 1.3px);
-        height: 32px;
-    }
-}
-
