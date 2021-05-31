@@ -1,14 +1,23 @@
-.skewed {
-    height: 500px;
-    background: $azul-oscuro;
-    transform: skewY(5deg);
-    margin-top: 57px;
+.skewed2 {
+    height: 37px;
+    background: $azul-medio;
+    transform: skewY(-4deg);
+    margin-top: -26px;
     transform-origin: top right;
 }
 
 section#servicios {
-    background: $azul-oscuro;
+    background: $azul-medio;
+    .skewed {
+        height: 500px;
+        background: $azul-medio;
+        transform: skewY(5deg);
+        margin-top: 57px;
+        transform-origin: top right;
+    }
+
     .listaServicios {
+        padding-bottom: 2rem;
         h4 {
             color: white;
             font-family: 'Roboto', sans-serif;
@@ -41,19 +50,24 @@ section#servicios {
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width:350px) {
-    .skewed {
-        height: 36px;
-        background: $azul-oscuro;
-        transform: skewY(5deg);
-        margin-top: 57px;
-        transform-origin: top right;
-    }
+
     section#servicios{
+        .skewed {
+            height: 36px;
+            background: $azul-medio;
+            transform: skewY(5deg);
+            margin-top: 57px;
+            transform-origin: top right;
+        }
         .listaServicios{
             button.btn-primary{
-                width: 100%;
+                width: 90%;
                 height: 54px;
-                font-size: 1.5rem;
+                font-size: 1.3rem;
+                justify-content: center;
+                display: flex;
+                margin: 0 auto;
+                align-items: center;
             }
         }
     }

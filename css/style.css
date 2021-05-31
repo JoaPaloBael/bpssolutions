@@ -266,46 +266,81 @@ section.quienesSomos {
         padding-bottom: 0;
         font-size: 1rem; } }
 
-.skewed {
-  height: 500px;
-  background: #09123d;
-  transform: skewY(5deg);
-  margin-top: 57px;
+.skewed2 {
+  height: 37px;
+  background: #233a5e;
+  transform: skewY(-4deg);
+  margin-top: -26px;
   transform-origin: top right; }
 
 section#servicios {
-  background: #09123d; }
-  section#servicios .listaServicios h4 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    padding: 0 5% 7% 5%;
-    font-size: 1.5rem; }
-  section#servicios .listaServicios ul {
-    padding-left: .9rem; }
-    section#servicios .listaServicios ul li {
+  background: #233a5e; }
+  section#servicios .skewed {
+    height: 500px;
+    background: #233a5e;
+    transform: skewY(5deg);
+    margin-top: 57px;
+    transform-origin: top right; }
+  section#servicios .listaServicios {
+    padding-bottom: 2rem; }
+    section#servicios .listaServicios h4 {
       color: white;
-      display: flex;
-      font-size: 1.3rem; }
-      section#servicios .listaServicios ul li i {
-        margin: 3% 5% 0 0; }
-  section#servicios .listaServicios button.btn-primary {
-    background-color: #457373;
-    border-color: #233a5e; }
-  section#servicios .listaServicios .modal li {
-    color: black; }
+      font-family: 'Roboto', sans-serif;
+      padding: 0 5% 7% 5%;
+      font-size: 1.5rem; }
+    section#servicios .listaServicios ul {
+      padding-left: .9rem; }
+      section#servicios .listaServicios ul li {
+        color: white;
+        display: flex;
+        font-size: 1.3rem; }
+        section#servicios .listaServicios ul li i {
+          margin: 3% 5% 0 0; }
+    section#servicios .listaServicios button.btn-primary {
+      background-color: #457373;
+      border-color: #233a5e; }
+    section#servicios .listaServicios .modal li {
+      color: black; }
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
-  .skewed {
+  section#servicios .skewed {
     height: 36px;
-    background: #09123d;
+    background: #233a5e;
     transform: skewY(5deg);
     margin-top: 57px;
     transform-origin: top right; }
   section#servicios .listaServicios button.btn-primary {
-    width: 100%;
+    width: 90%;
     height: 54px;
-    font-size: 1.5rem; } }
+    font-size: 1.3rem;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    align-items: center; } }
+
+section#contacto {
+  margin: 4rem 2rem; }
+  section#contacto div.container {
+    border-radius: 2%;
+    background: #fff; }
+    section#contacto div.container .contact-form {
+      margin-bottom: 5%;
+      width: 70%; }
+      section#contacto div.container .contact-form form {
+        border-radius: 5%; }
+        section#contacto div.container .contact-form form h3 {
+          text-align: center;
+          font-size: 2rem;
+          padding: 0.5rem; }
+        section#contacto div.container .contact-form form div.row .form-control {
+          border-radius: 1rem; }
+
+input.btnContact {
+  background-color: #457373;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 5%; }
 
 header {
   z-index: 15;
