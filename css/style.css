@@ -92,7 +92,7 @@ main {
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
   main section.presentacion img.imalogotipoHero {
-    margin-top: 20vh; }
+    margin-top: 10vh; }
   main section.presentacion img.asesoriaTuristica {
     padding: 0 1rem; }
   main section.presentacion a {
@@ -105,98 +105,88 @@ section.queEsBSP section.queEs_textos {
   text-align: center;
   align-items: center; }
   section.queEsBSP section.queEs_textos div.queEs_parrafo {
+    width: 100%;
     max-width: 550px;
     background-color: #e2e3cf;
     border-radius: 0 0 15px 15px;
     margin: 1rem; }
-    section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
-      background-color: #09123d;
-      color: #e2e3cf;
-      font-family: 'Alfa Slab One', cursive;
-      border-radius: 0 0 10px 10px;
-      padding: 1rem 0;
-      box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
-    section.queEsBSP section.queEs_textos div.queEs_parrafo p {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.3rem;
-      padding: .5rem;
+    section.queEsBSP section.queEs_textos div.queEs_parrafo h2 {
       margin-bottom: 0; }
-    section.queEsBSP section.queEs_textos div.queEs_parrafo i {
-      font-size: 2.5rem; }
-
-section.queEsBSP section.slogan .blockquote-wrapper {
-  display: flex;
-  padding: 0 20px;
-  /* Blockquote main style */ }
-  section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
-    position: relative;
-    font-family: 'Alfa Slab One';
-    max-width: 90vw;
-    margin: 40px auto;
-    align-self: center;
-    /* Blockquote header */
-    /* Blockquote subheader */ }
-    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
+      section.queEsBSP section.queEs_textos div.queEs_parrafo h2 button {
+        display: inline;
+        background-color: #09123d;
+        color: #e2e3cf;
+        font-family: 'Alfa Slab One', cursive;
+        border-radius: 0 0 10px 10px;
+        padding: 1rem 0;
+        box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
+  section.queEsBSP section.queEs_textos div.queEs_parrafo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: .5rem;
+    margin-bottom: 0; }
+  section.queEsBSP section.queEs_textos div.queEs_parrafo i {
+    font-size: 2.5rem; }
+  section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper {
+    display: flex;
+    padding: 0 20px;
+    /* Blockquote main style */ }
+    section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote {
+      position: relative;
       font-family: 'Alfa Slab One';
-      position: relative;
-      /* for pseudos */
-      color: #09123d;
-      font-size: 1.7rem;
-      font-weight: normal;
-      line-height: 1;
-      margin: 0;
-      border: 2px solid #09123d;
-      border-radius: 20px;
-      padding: 25px;
-      /* Blockquote right double quotes */ }
-      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::before {
-        content: "";
-        position: absolute;
-        width: 80px;
-        border: 6px solid #CCCCCC;
-        bottom: -3px;
-        left: 50px;
-        z-index: 2; }
-      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
-        content: "";
-        position: absolute;
+      max-width: 90vw;
+      margin: 40px auto;
+      align-self: center;
+      /* Blockquote header */
+      /* Blockquote subheader */ }
+      section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 {
+        font-family: 'Alfa Slab One';
+        position: relative;
+        /* for pseudos */
+        color: #09123d;
+        font-size: 1.7rem;
+        font-weight: normal;
+        line-height: 1;
+        margin: 0;
         border: 2px solid #09123d;
-        border-radius: 0 60px 0 0;
-        width: 60px;
-        height: 60px;
-        bottom: -60px;
-        left: 50px;
-        border-bottom: none;
-        border-left: none;
-        z-index: 3; }
-      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 span {
-        font-family: 'Alfa Slab One'; }
-    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
-      position: relative;
-      color: white;
-      font-size: 1.3rem;
-      font-weight: 400;
-      line-height: 1.2;
-      margin: 0;
-      padding-top: 15px;
-      z-index: 1;
-      margin-left: 150px;
-      padding-left: 12px; }
-      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
-        margin-left: -12px; }
-
-.divisor-libro {
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-  .divisor-libro svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 61px; }
-    .divisor-libro svg .shape-fill {
-      fill: #CCCCCC; }
+        border-radius: 20px;
+        padding: 25px;
+        /* Blockquote right double quotes */ }
+        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::before {
+          content: "";
+          position: absolute;
+          width: 80px;
+          border: 6px solid #CCCCCC;
+          bottom: -3px;
+          left: 50px;
+          z-index: 2; }
+        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::after {
+          content: "";
+          position: absolute;
+          border: 2px solid #09123d;
+          border-radius: 0 60px 0 0;
+          width: 60px;
+          height: 60px;
+          bottom: -60px;
+          left: 50px;
+          border-bottom: none;
+          border-left: none;
+          z-index: 3; }
+        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 span {
+          font-family: 'Alfa Slab One'; }
+      section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4 {
+        position: relative;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+        padding-top: 15px;
+        z-index: 1;
+        margin-left: 150px;
+        padding-left: 12px; }
+        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
+          margin-left: -12px; }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
@@ -221,8 +211,8 @@ section.queEsBSP section.slogan .blockquote-wrapper {
         height: 30px;
         bottom: -30px; }
     section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
-      margin-left: 0;
-      padding-top: 40px; } }
+      margin-left: 119px;
+      padding-top: 22px; } }
 
 section.quienesSomos {
   padding: 0 1rem;
@@ -250,6 +240,8 @@ section.quienesSomos {
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
+  section.quienesSomos img {
+    border-radius: 0 0 45.2px 20px; }
   section.quienesSomos div.texto {
     padding-bottom: 1rem; }
     section.quienesSomos div.texto p {

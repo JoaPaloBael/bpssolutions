@@ -2,7 +2,7 @@
 #git rm -r --cached package.json
 #git commit -m "Comitear la eliminacion"
 node_modules/
-package-lock.json/
-package.json/
 .vscode/
+package-lock.json
+package.json
 readme-sass.txt
