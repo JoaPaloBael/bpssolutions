@@ -4,6 +4,13 @@ section.quienesSomos {
     flex-direction: column;
     img {
         margin-bottom: 1rem;
+        border-radius: 0 0 26px 13px;
+    }
+    button.btn-primary{
+        background-color: $azul-oscuro;
+        border-color: $azul-oscuro;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
     }
 
     div.texto {
@@ -33,6 +40,7 @@ section.quienesSomos {
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width:350px) {
 section.quienesSomos{
+    font-size: 1.3rem;
     div.texto{
         padding-bottom: 1rem;
         p{

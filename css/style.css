@@ -92,7 +92,7 @@ main {
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
   main section.presentacion img.imalogotipoHero {
-    margin-top: 20vh; }
+    margin-top: 10vh; }
   main section.presentacion img.asesoriaTuristica {
     padding: 0 1rem; }
   main section.presentacion a {
@@ -207,7 +207,7 @@ section.queEsBSP section.slogan .blockquote-wrapper {
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
   section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
-    font-size: 1.4rem; }
+    font-size: 1.5rem; }
   section.queEsBSP section.queEs_textos div.queEs_parrafo p {
     font-size: 1rem; }
   section.queEsBSP section.queEs_textos div.queEs_parrafo i {
@@ -215,21 +215,28 @@ section.queEsBSP section.slogan .blockquote-wrapper {
   section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
     margin: 10px auto; }
     section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
-      font-size: 1.1rem; }
+      font-size: 1.4rem; }
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
         width: 30px;
         height: 30px;
         bottom: -30px; }
     section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
-      margin-left: 0;
-      padding-top: 40px; } }
+      margin-left: 90px;
+      padding-top: 10px;
+      color: #808080; } }
 
 section.quienesSomos {
   padding: 0 1rem;
   display: flex;
   flex-direction: column; }
   section.quienesSomos img {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    border-radius: 0 0 26px 13px; }
+  section.quienesSomos button.btn-primary {
+    background-color: #09123d;
+    border-color: #09123d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem; }
   section.quienesSomos div.texto {
     background-color: #457373;
     display: flex;
@@ -250,12 +257,55 @@ section.quienesSomos {
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
-  section.quienesSomos div.texto {
-    padding-bottom: 1rem; }
-    section.quienesSomos div.texto p {
-      margin-bottom: 0;
-      padding-bottom: 0;
-      font-size: 1rem; } }
+  section.quienesSomos {
+    font-size: 1.3rem; }
+    section.quienesSomos div.texto {
+      padding-bottom: 1rem; }
+      section.quienesSomos div.texto p {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 1rem; } }
+
+.skewed {
+  height: 500px;
+  background: #09123d;
+  transform: skewY(5deg);
+  margin-top: 57px;
+  transform-origin: top right; }
+
+section#servicios {
+  background: #09123d; }
+  section#servicios .listaServicios h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 5% 7% 5%;
+    font-size: 1.5rem; }
+  section#servicios .listaServicios ul {
+    padding-left: .9rem; }
+    section#servicios .listaServicios ul li {
+      color: white;
+      display: flex;
+      font-size: 1.3rem; }
+      section#servicios .listaServicios ul li i {
+        margin: 3% 5% 0 0; }
+  section#servicios .listaServicios button.btn-primary {
+    background-color: #457373;
+    border-color: #233a5e; }
+  section#servicios .listaServicios .modal li {
+    color: black; }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  .skewed {
+    height: 36px;
+    background: #09123d;
+    transform: skewY(5deg);
+    margin-top: 57px;
+    transform-origin: top right; }
+  section#servicios .listaServicios button.btn-primary {
+    width: 100%;
+    height: 54px;
+    font-size: 1.5rem; } }
 
 header {
   z-index: 15;

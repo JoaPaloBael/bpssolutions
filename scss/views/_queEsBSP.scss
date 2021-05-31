@@ -145,7 +145,7 @@ section.queEsBSP {
         section.queEs_textos {
             div.queEs_parrafo {
                 h3{
-                    font-size: 1.4rem;
+                    font-size: 1.5rem;
                 }
                 p{
                     font-size: 1rem;
@@ -160,7 +160,7 @@ section.queEsBSP {
                 div.blockquote {
                     margin: 10px auto;
                     h3{
-                        font-size: 1.1rem;
+                        font-size: 1.4rem;
                         &::after{
                             width: 30px;
                             height: 30px;
@@ -168,11 +168,13 @@ section.queEsBSP {
                         }
                     }
                     h4{
-                        margin-left: 0;
-                        padding-top: 40px;
+                        margin-left: 90px;
+                        padding-top: 10px;
+                        color: #808080;
                     }
                 }
             }
         }
     }
 }
+

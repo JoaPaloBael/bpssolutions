@@ -1,0 +1,60 @@
+.skewed {
+    height: 500px;
+    background: $azul-oscuro;
+    transform: skewY(5deg);
+    margin-top: 57px;
+    transform-origin: top right;
+}
+
+section#servicios {
+    background: $azul-oscuro;
+    .listaServicios {
+        h4 {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            padding: 0 5% 7% 5%;
+            font-size: 1.5rem;
+        }
+        ul {
+            padding-left: .9rem;
+            li {
+                color: white;
+                display: flex;
+                font-size: 1.3rem;
+
+                i {
+                    margin: 3% 5% 0 0;
+                }
+            }
+        }
+        button.btn-primary{
+            background-color: $azul-claro;
+            border-color: $azul-medio;
+        }
+        .modal{
+            li{
+                color: black;
+            }
+        }
+    }
+}
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width:350px) {
+    .skewed {
+        height: 36px;
+        background: $azul-oscuro;
+        transform: skewY(5deg);
+        margin-top: 57px;
+        transform-origin: top right;
+    }
+    section#servicios{
+        .listaServicios{
+            button.btn-primary{
+                width: 100%;
+                height: 54px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
