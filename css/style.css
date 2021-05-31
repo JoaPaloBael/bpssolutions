@@ -6,6 +6,9 @@
   font-family: sans-serif;
   box-sizing: border-box; }
 
+body {
+  background-color: #CCCCCC; }
+
 ul, ol {
   list-style: none; }
 
@@ -15,14 +18,6 @@ a {
 
 a:hover {
   text-decoration: none; }
-
-.floatLeft {
-  float: left;
-  padding: .5em .5em .5em 0; }
-
-.floatRight {
-  float: right;
-  padding: .5em 0 .5em .5em; }
 
 @font-face {
   font-family: 'Alfa Slab One';
@@ -69,132 +64,177 @@ a:hover {
 
 main {
   background-color: #CCCCCC; }
-  main section.primeraSeccionIndex {
+  main section.presentacion {
     display: flex;
     flex-direction: column;
-    margin: 0 1rem 2rem 1rem;
-    align-items: center;
-    margin-bottom: 2rem; }
-    main section.primeraSeccionIndex img.imalogotipoHero {
+    align-items: center; }
+    main section.presentacion img.imalogotipoHero {
       max-width: 40rem;
       margin: 0 auto;
       margin-top: 13vh; }
-    main section.primeraSeccionIndex img.asesoriaTuristica {
+    main section.presentacion img.asesoriaTuristica {
       animation-delay: 1s;
       align-self: center;
       max-width: 30rem;
       margin-top: 2rem; }
-    main section.primeraSeccionIndex a {
+    main section.presentacion a {
       margin-top: 3rem;
       background-color: inherit; }
-      main section.primeraSeccionIndex a i {
+      main section.presentacion a i {
         display: flex;
         justify-content: center;
         padding-top: 1rem;
         color: #457373;
         font-size: 48px; }
-        main section.primeraSeccionIndex a i:hover {
+        main section.presentacion a i:hover {
           color: #233a5e; }
-  main section.queEsBSP section.segundaSeccionIndex {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin: 5rem 5rem 0rem 5rem; }
-    main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo {
-      max-width: 550px;
-      background-color: #e2e3cf;
-      border-radius: 0 0 15px 15px; }
-      main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo h3 {
-        background-color: #09123d;
-        color: #e2e3cf;
-        font-family: 'Alfa Slab One', cursive;
-        border-radius: 0 0 10px 10px;
-        padding: .5rem 0;
-        box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
-      main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.3rem;
-        margin: 1rem;
-        padding: .5rem; }
-      main section.queEsBSP section.segundaSeccionIndex div.segundaSeccionIndex__parrafo i {
-        font-size: 2.5rem; }
-  main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper {
-    display: flex;
-    padding: 0 20px;
-    /* Blockquote main style */ }
-    main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote {
-      position: relative;
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  main section.presentacion img.imalogotipoHero {
+    margin-top: 20vh; }
+  main section.presentacion img.asesoriaTuristica {
+    padding: 0 1rem; }
+  main section.presentacion a {
+    margin: 0; } }
+
+section.queEsBSP section.queEs_textos {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+  section.queEsBSP section.queEs_textos div.queEs_parrafo {
+    max-width: 550px;
+    background-color: #e2e3cf;
+    border-radius: 0 0 15px 15px;
+    margin: 1rem; }
+    section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
+      background-color: #09123d;
+      color: #e2e3cf;
+      font-family: 'Alfa Slab One', cursive;
+      border-radius: 0 0 10px 10px;
+      padding: 1rem 0;
+      box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
+    section.queEsBSP section.queEs_textos div.queEs_parrafo p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.3rem;
+      padding: .5rem;
+      margin-bottom: 0; }
+    section.queEsBSP section.queEs_textos div.queEs_parrafo i {
+      font-size: 2.5rem; }
+
+section.queEsBSP section.slogan .blockquote-wrapper {
+  display: flex;
+  padding: 0 20px;
+  /* Blockquote main style */ }
+  section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
+    position: relative;
+    font-family: 'Alfa Slab One';
+    max-width: 90vw;
+    margin: 40px auto;
+    align-self: center;
+    /* Blockquote header */
+    /* Blockquote subheader */ }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
       font-family: 'Alfa Slab One';
-      max-width: 620px;
-      margin: 40px auto;
-      align-self: center;
-      /* Blockquote header */
-      /* Blockquote subheader */ }
-      main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3 {
-        font-family: 'Alfa Slab One';
-        position: relative;
-        /* for pseudos */
-        color: #09123d;
-        font-size: 2.8rem;
-        font-weight: normal;
-        line-height: 1;
-        margin: 0;
+      position: relative;
+      /* for pseudos */
+      color: #09123d;
+      font-size: 1.7rem;
+      font-weight: normal;
+      line-height: 1;
+      margin: 0;
+      border: 2px solid #09123d;
+      border-radius: 20px;
+      padding: 25px;
+      /* Blockquote right double quotes */ }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        border: 6px solid #CCCCCC;
+        bottom: -3px;
+        left: 50px;
+        z-index: 2; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
+        content: "";
+        position: absolute;
         border: 2px solid #09123d;
-        border-radius: 20px;
-        padding: 25px;
-        /* Blockquote right double quotes */ }
-        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3::before {
-          content: "";
-          position: absolute;
-          width: 80px;
-          border: 6px solid #CCCCCC;
-          bottom: -3px;
-          left: 50px;
-          z-index: 2; }
-        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3::after {
-          content: "";
-          position: absolute;
-          border: 2px solid #09123d;
-          border-radius: 0 60px 0 0;
-          width: 60px;
-          height: 60px;
-          bottom: -60px;
-          left: 50px;
-          border-bottom: none;
-          border-left: none;
-          z-index: 3; }
-        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h3 span {
-          font-family: 'Alfa Slab One'; }
-      main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h4 {
-        position: relative;
-        color: white;
-        font-size: 1.3rem;
-        font-weight: 400;
-        line-height: 1.2;
-        margin: 0;
-        padding-top: 15px;
-        z-index: 1;
-        margin-left: 150px;
-        padding-left: 12px; }
-        main section.queEsBSP section.terceraSeccionIndex .blockquote-wrapper div.blockquote h4::first-letter {
-          margin-left: -12px; }
+        border-radius: 0 60px 0 0;
+        width: 60px;
+        height: 60px;
+        bottom: -60px;
+        left: 50px;
+        border-bottom: none;
+        border-left: none;
+        z-index: 3; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 span {
+        font-family: 'Alfa Slab One'; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
+      position: relative;
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 1.2;
+      margin: 0;
+      padding-top: 15px;
+      z-index: 1;
+      margin-left: 150px;
+      padding-left: 12px; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
+        margin-left: -12px; }
+
+.divisor-libro {
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+  .divisor-libro svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px; }
+    .divisor-libro svg .shape-fill {
+      fill: #CCCCCC; }
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .divisor-libro svg {
+    width: calc(100% + 1.3px);
+    height: 32px; } }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
+    font-size: 1.4rem; }
+  section.queEsBSP section.queEs_textos div.queEs_parrafo p {
+    font-size: 1rem; }
+  section.queEsBSP section.queEs_textos div.queEs_parrafo i {
+    font-size: 1.6rem; }
+  section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
+    margin: 10px auto; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
+      font-size: 1.1rem; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
+        width: 30px;
+        height: 30px;
+        bottom: -30px; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
+      margin-left: 0;
+      padding-top: 40px; } }
 
 section.quienesSomos {
-  padding: 2rem 4rem;
+  padding: 0 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end; }
+  flex-direction: column; }
   section.quienesSomos img {
-    max-height: 31rem; }
+    margin-bottom: 1rem; }
   section.quienesSomos div.texto {
     background-color: #457373;
     display: flex;
     flex-direction: column;
     max-width: 45rem;
-    max-height: 31rem;
     border-radius: 10px; }
     section.quienesSomos div.texto p {
       font-weight: light;
@@ -207,6 +247,15 @@ section.quienesSomos {
   @media screen and (max-width: 1200px) {
     section.quienesSomos {
       background-position: center 2rem; } }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  section.quienesSomos div.texto {
+    padding-bottom: 1rem; }
+    section.quienesSomos div.texto p {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      font-size: 1rem; } }
 
 header {
   z-index: 15;
@@ -254,39 +303,34 @@ header {
 footer {
   background-color: #457373;
   font-family: 'Roboto', sans-serif;
-  position: relative;
-  width: 100%;
-  bottom: 0;
-  height: 21vh; }
-  footer section.redes__footer {
+  border-radius: 10px;
+  margin-top: 2rem; }
+  footer section.redes__footer div ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: auto; }
-    footer section.redes__footer div {
-      display: flex;
-      flex-direction: column; }
-      footer section.redes__footer div ul li {
-        padding-top: 1rem; }
-        footer section.redes__footer div ul li a {
-          color: #e2e3cf;
-          display: flex;
-          flex: row;
-          align-items: center; }
-          footer section.redes__footer div ul li a:hover {
-            color: #09123d; }
-          footer section.redes__footer div ul li a i {
-            font-size: 2rem; }
-          footer section.redes__footer div ul li a p {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1rem;
-            align-self: center;
-            margin-bottom: 0;
-            margin-left: 14px; }
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0; }
+    footer section.redes__footer div ul li {
+      padding: 1rem 1rem; }
+      footer section.redes__footer div ul li a {
+        color: #e2e3cf;
+        display: flex;
+        flex: row;
+        align-items: center; }
+        footer section.redes__footer div ul li a:hover {
+          color: #09123d; }
+        footer section.redes__footer div ul li a i {
+          font-size: 3rem; }
+        footer section.redes__footer div ul li a p {
+          font-family: 'Roboto', sans-serif;
+          font-size: 1rem;
+          align-self: center;
+          margin-bottom: 0;
+          margin-left: 14px;
+          display: none; }
   footer section.copy__footer {
     display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    text-align: center; }
     footer section.copy__footer p {
       font-family: 'Roboto', sans-serif;
       margin: 1rem .5rem 0 .5rem; }
@@ -294,3 +338,16 @@ footer {
         color: inherit; }
         footer section.copy__footer p a:hover {
           color: #CCCCCC; }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  footer section.redes__footer div ul {
+    justify-content: space-evenly; }
+    footer section.redes__footer div ul li a i {
+      font-size: 2rem; }
+  footer section.copy__footer {
+    flex-direction: column; }
+    footer section.copy__footer p.spacer {
+      display: none; }
+    footer section.copy__footer p {
+      margin: 0.3rem 0 0 0; } }

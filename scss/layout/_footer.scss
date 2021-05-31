@@ -1,22 +1,19 @@
+
 footer{
     background-color: $azul-claro;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    height: 21vh;
+    border-radius: 10px;
+    margin-top: 2rem;
 
     section.redes__footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: auto;
         div{
-            display: flex;
-            flex-direction: column;
             ul{
+                display: flex;
+                justify-content: center;
+                padding-left: 0;
+                margin-bottom: 0;
                 li{
-                    padding-top: 1rem;
+                    padding: 1rem 1rem;
                     a{
                         color: $fondo-claro;
                         display: flex;
@@ -26,7 +23,7 @@ footer{
                             color: $azul-oscuro;
                         }
                         i{
-                            font-size: 2rem;
+                            font-size: 3rem;
                         }
                         p{
                             font-family: 'Roboto', sans-serif;
@@ -34,6 +31,7 @@ footer{
                             align-self: center;
                             margin-bottom: 0;
                             margin-left: 14px;
+                            display: none;
                         }
                     }
                 }
@@ -42,8 +40,7 @@ footer{
     }
     section.copy__footer{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        text-align: center;
         p{
             font-family: 'Roboto', sans-serif;
             margin: 1rem .5rem 0 .5rem;
@@ -52,6 +49,35 @@ footer{
                 &:hover{
                     color: $gris-claro;
                 }
+            }
+        }
+    }
+}
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width:350px) {
+    footer {
+        section.redes__footer {
+            div {
+                ul {
+                    justify-content: space-evenly;
+                    li {
+                        a {
+                            i{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section.copy__footer {
+            flex-direction: column;
+            p.spacer{
+                display: none;
+            }
+            p{
+                margin: 0.3rem 0 0 0;
             }
         }
     }

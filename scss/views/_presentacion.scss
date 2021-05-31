@@ -1,0 +1,59 @@
+main {
+    background-color: $gris-claro;
+
+    section.presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // margin-bottom: 2rem;
+
+        img.imalogotipoHero {
+            max-width: 40rem;
+            margin: 0 auto;
+            margin-top: 13vh;
+        }
+
+        img.asesoriaTuristica {
+            animation-delay: 1s;
+            align-self: center;
+            max-width: 30rem;
+            margin-top: 2rem;
+        }
+
+        a {
+
+            margin-top: 3rem;
+            background-color: inherit;
+
+            i {
+                display: flex;
+                justify-content: center;
+                padding-top: 1rem;
+                color: $azul-claro;
+                font-size: 48px;
+
+                &:hover {
+                    color: $azul-medio;
+                }
+            }
+        }
+    }
+
+}
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width:350px) {
+    main {
+        section.presentacion {
+            img.imalogotipoHero {
+                margin-top: 20vh;
+            }
+            img.asesoriaTuristica{
+                padding: 0 1rem;
+            }
+            a{
+                margin: 0;
+            }
+        }
+    }
+}

@@ -7,6 +7,10 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+// Body
+body{
+    background-color: #CCCCCC;
+}
 // Listas
 ul, ol {
     list-style: none;
@@ -18,13 +22,4 @@ a {
 }
 a:hover {
     text-decoration: none;
-}
-// Flotación
-.floatLeft {
-    float: left;
-    padding: .5em .5em .5em 0;
-}
-.floatRight {
-    float: right;
-    padding: .5em 0 .5em .5em;
 }
