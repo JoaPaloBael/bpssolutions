@@ -8,6 +8,7 @@
 
 section#servicios {
     background: $azul-medio;
+
     .skewed {
         height: 500px;
         background: $azul-medio;
@@ -18,14 +19,17 @@ section#servicios {
 
     .listaServicios {
         padding-bottom: 2rem;
+
         h4 {
             color: white;
             font-family: 'Roboto', sans-serif;
             padding: 0 5% 7% 5%;
             font-size: 1.5rem;
         }
+
         ul {
             padding-left: .9rem;
+
             li {
                 color: white;
                 display: flex;
@@ -36,12 +40,14 @@ section#servicios {
                 }
             }
         }
-        button.btn-primary{
+
+        button.btn-primary {
             background-color: $azul-claro;
             border-color: $azul-medio;
         }
-        .modal{
-            li{
+
+        .modal {
+            li {
                 color: black;
             }
         }
@@ -51,7 +57,7 @@ section#servicios {
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width:350px) {
 
-    section#servicios{
+    section#servicios {
         .skewed {
             height: 36px;
             background: $azul-medio;
@@ -59,8 +65,9 @@ section#servicios {
             margin-top: 57px;
             transform-origin: top right;
         }
-        .listaServicios{
-            button.btn-primary{
+
+        .listaServicios {
+            button.btn-primary {
                 width: 90%;
                 height: 54px;
                 font-size: 1.3rem;
@@ -68,6 +75,35 @@ section#servicios {
                 display: flex;
                 margin: 0 auto;
                 align-items: center;
+            }
+        }
+    }
+}
+
+/*Dispositivo SMALL*/
+@media (min-width: 351px) and (max-width:516px) {
+    .skewed2 {
+        margin-top: -37px;
+    }
+
+    section#servicios {
+        .skewed {
+            height: 54px;
+        }
+
+        .listaServicios {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                max-width: 81vw;
+                margin: 0 auto;
+            }
+
+            button.btn-primary {
+                font-size: 1.3rem;
+                margin: 0 auto;
+                width: 55vw;
             }
         }
     }

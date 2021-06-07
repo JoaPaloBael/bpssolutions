@@ -1,10 +1,12 @@
 section.queEsBSP {
+    display: flex;
+        flex-direction: column;
     section.queEs_textos {
         height: auto;
         display: flex;
-        flex-direction: column;
         text-align: center;
-        align-items: center;
+        max-width: 56vw;
+        margin: 0px auto;
 
         div.queEs_parrafo {
             max-width: 550px;
@@ -96,7 +98,7 @@ section.queEsBSP {
                 /* Blockquote subheader */
                 h4 {
                     position: relative;
-                    color: white;
+                    color: $gris-oscuro;
                     font-size: 1.3rem;
                     font-weight: 400;
                     line-height: 1.2;
@@ -120,11 +122,13 @@ section.queEsBSP {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+
     svg {
         position: relative;
         display: block;
         width: calc(100% + 1.3px);
         height: 61px;
+
         .shape-fill {
             fill: #CCCCCC;
         }
@@ -142,35 +146,50 @@ section.queEsBSP {
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width:350px) {
     section.queEsBSP {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
         section.queEs_textos {
+            flex-direction: column;
+            height: auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
             div.queEs_parrafo {
-                h3{
+                h3 {
                     font-size: 1.5rem;
                 }
-                p{
+
+                p {
                     font-size: 1rem;
                 }
-                i{
+
+                i {
                     font-size: 1.6rem;
                 }
             }
         }
+
         section.slogan {
             .blockquote-wrapper {
                 div.blockquote {
                     margin: 10px auto;
-                    h3{
+
+                    h3 {
                         font-size: 1.4rem;
-                        &::after{
+
+                        &::after {
                             width: 30px;
                             height: 30px;
                             bottom: -30px;
                         }
                     }
-                    h4{
+
+                    h4 {
                         margin-left: 90px;
                         padding-top: 10px;
-                        color: #808080;
                     }
                 }
             }
@@ -178,3 +197,23 @@ section.queEsBSP {
     }
 }
 
+/*Dispositivo SMALL*/
+@media (min-width: 351px) and (max-width:516px) {
+    section.queEsBSP {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        section.slogan {
+            .blockquote-wrapper {
+                max-width: 87vw;
+                margin: 0 auto;
+
+                div.blockquote {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
