@@ -2,11 +2,14 @@ section.quienesSomos {
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
 
     img {
         margin-bottom: 1rem;
-        border-radius: 0 0 26px 13px;
-        max-width: 25vw;
+        border-radius: 0 0 55px 17px;
+        max-width: 500px;
+        margin-left: 130px;
     }
 
     button.btn-primary {
@@ -14,6 +17,13 @@ section.quienesSomos {
         border-color: $azul-oscuro;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
+        max-width: 466px;
+        margin-left: 130px;
+        margin-bottom: 20px;
+        &:hover{
+            background-color: $azul-claro;
+            border-color: $azul-claro;
+        }
     }
 
     div.texto {
@@ -44,6 +54,16 @@ section.quienesSomos {
 @media (min-width: 0px) and (max-width:350px) {
     section.quienesSomos {
         font-size: 1.3rem;
+        img{
+            width: 300px;
+            border-radius: 0 0 21px 17px;
+            margin-left: 20px;
+        }
+        button.btn-primary{
+            max-width: 300px;
+            margin-left: 14px;
+            margin-bottom: 20px;
+        }
 
         div.texto {
             padding-bottom: 1rem;

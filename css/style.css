@@ -259,16 +259,25 @@ section.queEsBSP {
 section.quienesSomos {
   padding: 0 1rem;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto; }
   section.quienesSomos img {
     margin-bottom: 1rem;
-    border-radius: 0 0 26px 13px;
-    max-width: 25vw; }
+    border-radius: 0 0 55px 17px;
+    max-width: 500px;
+    margin-left: 130px; }
   section.quienesSomos button.btn-primary {
     background-color: #09123d;
     border-color: #09123d;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    max-width: 466px;
+    margin-left: 130px;
+    margin-bottom: 20px; }
+    section.quienesSomos button.btn-primary:hover {
+      background-color: #457373;
+      border-color: #457373; }
   section.quienesSomos div.texto {
     background-color: #457373;
     display: flex;
@@ -291,6 +300,14 @@ section.quienesSomos {
 @media (min-width: 0px) and (max-width: 350px) {
   section.quienesSomos {
     font-size: 1.3rem; }
+    section.quienesSomos img {
+      width: 300px;
+      border-radius: 0 0 21px 17px;
+      margin-left: 20px; }
+    section.quienesSomos button.btn-primary {
+      max-width: 300px;
+      margin-left: 14px;
+      margin-bottom: 20px; }
     section.quienesSomos div.texto {
       padding-bottom: 1rem; }
       section.quienesSomos div.texto p {
@@ -311,38 +328,48 @@ section.quienesSomos {
     margin-right: 6.4vw; } }
 
 .skewed2 {
-  height: 37px;
+  height: 46px;
   background: #233a5e;
-  transform: skewY(-4deg);
-  margin-top: -26px;
+  transform: skewY(-1deg);
+  margin-top: -37px;
   transform-origin: top right; }
 
 section#servicios {
   background: #233a5e; }
   section#servicios .skewed {
-    height: 500px;
+    height: 81px;
     background: #233a5e;
-    transform: skewY(5deg);
-    margin-top: 57px;
+    transform: skewY(1deg);
+    margin-top: 100px;
     transform-origin: top right; }
   section#servicios .listaServicios {
-    padding-bottom: 2rem; }
+    margin-top: -30px;
+    padding-bottom: 2rem;
+    max-width: 800px;
+    margin: 0 auto; }
     section#servicios .listaServicios h4 {
       color: white;
       font-family: 'Roboto', sans-serif;
-      padding: 0 5% 7% 5%;
-      font-size: 1.5rem; }
+      padding: 0 5% 7% 7%;
+      font-size: 2.1rem;
+      max-width: 760px; }
     section#servicios .listaServicios ul {
       padding-left: .9rem; }
       section#servicios .listaServicios ul li {
         color: white;
         display: flex;
-        font-size: 1.3rem; }
+        font-size: 1.6rem; }
         section#servicios .listaServicios ul li i {
-          margin: 3% 5% 0 0; }
+          margin: 1% 3% 0 0; }
     section#servicios .listaServicios button.btn-primary {
       background-color: #457373;
-      border-color: #233a5e; }
+      border-color: #233a5e;
+      height: 58px;
+      width: 330px;
+      font-size: 1.5rem;
+      margin-left: 60px; }
+      section#servicios .listaServicios button.btn-primary:hover {
+        background-color: #09123d; }
     section#servicios .listaServicios .modal li {
       color: black; }
 
@@ -381,27 +408,30 @@ section#servicios {
       width: 55vw; } }
 
 section#contacto {
-  margin: 4rem 2rem; }
-  section#contacto div.container {
-    border-radius: 2%;
-    background: #fff; }
-    section#contacto div.container .contact-form {
-      margin-bottom: 5%;
-      width: 70%; }
-      section#contacto div.container .contact-form form {
-        border-radius: 5%; }
-        section#contacto div.container .contact-form form h3 {
-          text-align: center;
-          font-size: 2rem;
-          padding: 0.5rem; }
-        section#contacto div.container .contact-form form div.row .form-control {
-          border-radius: 1rem; }
+  max-width: 1100px;
+  margin: 4rem auto; }
+  section#contacto div.container.contact-form {
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 5%;
+    width: 70%; }
+    section#contacto div.container.contact-form form {
+      border-radius: 5%; }
+      section#contacto div.container.contact-form form h3.contactame {
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+        margin-top: 1rem; }
+      section#contacto div.container.contact-form form div.row .form-control {
+        border-radius: 1rem; }
 
 input.btnContact {
   background-color: #457373;
   color: white;
   padding: 7px 12px;
   border-radius: 5%; }
+  input.btnContact:hover {
+    background-color: #09123d; }
 
 header {
   z-index: 15;
