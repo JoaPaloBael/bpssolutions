@@ -42,16 +42,17 @@ section.quienesSomos {
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width:350px) {
-section.quienesSomos{
-    img{
-        border-radius: 0 0 45.2px 20px;
-    }
-    div.texto{
-        padding-bottom: 1rem;
-        p{
-            margin-bottom: 0;
-            padding-bottom: 0;
-            font-size: 1rem;
+    section.quienesSomos {
+        font-size: 1.3rem;
+
+        div.texto {
+            padding-bottom: 1rem;
+
+            p {
+                margin-bottom: 0;
+                padding-bottom: 0;
+                font-size: 1rem;
+            }
         }
     }
 }
@@ -73,5 +74,4 @@ section.quienesSomos{
         }
     }
 
-}
 }
