@@ -250,7 +250,8 @@ section.quienesSomos {
   flex-direction: column; }
   section.quienesSomos img {
     margin-bottom: 1rem;
-    border-radius: 0 0 26px 13px; }
+    border-radius: 0 0 26px 13px;
+    max-width: 25vw; }
   section.quienesSomos button.btn-primary {
     background-color: #09123d;
     border-color: #09123d;
