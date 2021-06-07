@@ -3,6 +3,6 @@
 #git commit -m "Comitear la eliminacion"
 node_modules/
 .vscode/
-package-lock.json
-package.json
+# package-lock.json
+# package.json
 readme-sass.txt

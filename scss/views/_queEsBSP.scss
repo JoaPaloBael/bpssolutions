@@ -31,19 +31,6 @@ section.queEsBSP {
 
 
         div.queEs_parrafo {
-            // max-width: 550px;
-            // background-color: $fondo-claro;
-            // border-radius: 0 0 15px 15px;
-            // margin: 1rem;
-
-            // h3 {
-            //     background-color: $azul-oscuro;
-            //     color: $fondo-claro;
-            //     font-family: 'Alfa Slab One', cursive;
-            //     border-radius: 0 0 10px 10px;
-            //     padding: 1rem 0;
-            //     box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35);
-            // }
 
             p {
                 font-family: 'Roboto', sans-serif;
@@ -135,14 +122,6 @@ section.queEsBSP {
                 }
             }
         }
-    }
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .divisor-libro svg {
-        width: calc(100% + 1.3px);
-        height: 32px;
     }
 }
 

@@ -98,24 +98,6 @@ main {
   main section.presentacion a {
     margin: 0; } }
 
-<<<<<<< HEAD
-section.queEsBSP section.queEs_textos {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center; }
-  section.queEsBSP section.queEs_textos div.queEs_parrafo {
-    width: 100%;
-    max-width: 550px;
-    background-color: #e2e3cf;
-    border-radius: 0 0 15px 15px;
-    margin: 1rem; }
-    section.queEsBSP section.queEs_textos div.queEs_parrafo h2 {
-      margin-bottom: 0; }
-      section.queEsBSP section.queEs_textos div.queEs_parrafo h2 button {
-        display: inline;
-=======
 @media (min-width: 351px) and (max-width: 516px) {
   /*Dispositivo SMALL*/
   main section.presentacion a {
@@ -131,166 +113,91 @@ section.queEsBSP {
     max-width: 56vw;
     margin: 0px auto; }
     section.queEsBSP section.queEs_textos div.queEs_parrafo {
+      width: 100%;
       max-width: 550px;
       background-color: #e2e3cf;
       border-radius: 0 0 15px 15px;
       margin: 1rem; }
-      section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
->>>>>>> responsive
-        background-color: #09123d;
-        color: #e2e3cf;
-        font-family: 'Alfa Slab One', cursive;
-        border-radius: 0 0 10px 10px;
-        padding: 1rem 0;
-        box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
-<<<<<<< HEAD
-  section.queEsBSP section.queEs_textos div.queEs_parrafo p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
-    padding: .5rem;
-    margin-bottom: 0; }
-  section.queEsBSP section.queEs_textos div.queEs_parrafo i {
-    font-size: 2.5rem; }
-  section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper {
-    display: flex;
-    padding: 0 20px;
-    /* Blockquote main style */ }
-    section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote {
-=======
-      section.queEsBSP section.queEs_textos div.queEs_parrafo p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.3rem;
-        padding: .5rem;
+      section.queEsBSP section.queEs_textos div.queEs_parrafo h2 {
         margin-bottom: 0; }
-      section.queEsBSP section.queEs_textos div.queEs_parrafo i {
-        font-size: 2.5rem; }
-  section.queEsBSP section.slogan .blockquote-wrapper {
-    display: flex;
-    padding: 0 20px;
-    /* Blockquote main style */ }
-    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
->>>>>>> responsive
-      position: relative;
-      font-family: 'Alfa Slab One';
-      max-width: 90vw;
-      margin: 40px auto;
-      align-self: center;
-      /* Blockquote header */
-      /* Blockquote subheader */ }
-<<<<<<< HEAD
-      section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 {
-=======
-      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
->>>>>>> responsive
+        section.queEsBSP section.queEs_textos div.queEs_parrafo h2 button {
+          display: inline;
+          background-color: #09123d;
+          color: #e2e3cf;
+          font-family: 'Alfa Slab One', cursive;
+          border-radius: 0 0 10px 10px;
+          padding: 1rem 0;
+          box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
+    section.queEsBSP section.queEs_textos div.queEs_parrafo p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.3rem;
+      padding: .5rem;
+      margin-bottom: 0; }
+    section.queEsBSP section.queEs_textos div.queEs_parrafo i {
+      font-size: 2.5rem; }
+    section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper {
+      display: flex;
+      padding: 0 20px;
+      /* Blockquote main style */ }
+      section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote {
+        position: relative;
         font-family: 'Alfa Slab One';
-        position: relative;
-        /* for pseudos */
-        color: #09123d;
-        font-size: 1.7rem;
-        font-weight: normal;
-        line-height: 1;
-        margin: 0;
-        border: 2px solid #09123d;
-        border-radius: 20px;
-        padding: 25px;
-        /* Blockquote right double quotes */ }
-<<<<<<< HEAD
-        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::before {
-=======
-        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::before {
->>>>>>> responsive
-          content: "";
-          position: absolute;
-          width: 80px;
-          border: 6px solid #CCCCCC;
-          bottom: -3px;
-          left: 50px;
-          z-index: 2; }
-<<<<<<< HEAD
-        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::after {
-=======
-        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
->>>>>>> responsive
-          content: "";
-          position: absolute;
+        max-width: 90vw;
+        margin: 40px auto;
+        align-self: center;
+        /* Blockquote header */
+        /* Blockquote subheader */ }
+        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 {
+          font-family: 'Alfa Slab One';
+          position: relative;
+          /* for pseudos */
+          color: #09123d;
+          font-size: 1.7rem;
+          font-weight: normal;
+          line-height: 1;
+          margin: 0;
           border: 2px solid #09123d;
-          border-radius: 0 60px 0 0;
-          width: 60px;
-          height: 60px;
-          bottom: -60px;
-          left: 50px;
-          border-bottom: none;
-          border-left: none;
-          z-index: 3; }
-<<<<<<< HEAD
-        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 span {
-          font-family: 'Alfa Slab One'; }
-      section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4 {
-        position: relative;
-        color: white;
-=======
-        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 span {
-          font-family: 'Alfa Slab One'; }
-      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
-        position: relative;
-        color: #313131;
->>>>>>> responsive
-        font-size: 1.3rem;
-        font-weight: 400;
-        line-height: 1.2;
-        margin: 0;
-        padding-top: 15px;
-        z-index: 1;
-        margin-left: 150px;
-        padding-left: 12px; }
-<<<<<<< HEAD
-        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
-          margin-left: -12px; }
-=======
-        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
-          margin-left: -12px; }
-
-.divisor-libro {
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-  .divisor-libro svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 61px; }
-    .divisor-libro svg .shape-fill {
-      fill: #CCCCCC; }
->>>>>>> responsive
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .divisor-libro svg {
-    width: calc(100% + 1.3px);
-    height: 32px; } }
+          border-radius: 20px;
+          padding: 25px;
+          /* Blockquote right double quotes */ }
+          section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::before {
+            content: "";
+            position: absolute;
+            width: 80px;
+            border: 6px solid #CCCCCC;
+            bottom: -3px;
+            left: 50px;
+            z-index: 2; }
+          section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::after {
+            content: "";
+            position: absolute;
+            border: 2px solid #09123d;
+            border-radius: 0 60px 0 0;
+            width: 60px;
+            height: 60px;
+            bottom: -60px;
+            left: 50px;
+            border-bottom: none;
+            border-left: none;
+            z-index: 3; }
+          section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 span {
+            font-family: 'Alfa Slab One'; }
+        section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4 {
+          position: relative;
+          color: white;
+          font-size: 1.3rem;
+          font-weight: 400;
+          line-height: 1.2;
+          margin: 0;
+          padding-top: 15px;
+          z-index: 1;
+          margin-left: 150px;
+          padding-left: 12px; }
+          section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
+            margin-left: -12px; }
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
-<<<<<<< HEAD
-  section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
-    font-size: 1.4rem; }
-  section.queEsBSP section.queEs_textos div.queEs_parrafo p {
-    font-size: 1rem; }
-  section.queEsBSP section.queEs_textos div.queEs_parrafo i {
-    font-size: 1.6rem; }
-  section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
-    margin: 10px auto; }
-    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
-      font-size: 1.1rem; }
-      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
-        width: 30px;
-        height: 30px;
-        bottom: -30px; }
-    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
-      margin-left: 119px;
-      padding-top: 22px; } }
-=======
   section.queEsBSP {
     height: auto;
     display: flex;
@@ -304,7 +211,7 @@ section.queEsBSP {
       text-align: center;
       align-items: center; }
       section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
-        font-size: 1.5rem; }
+        font-size: 1.4rem; }
       section.queEsBSP section.queEs_textos div.queEs_parrafo p {
         font-size: 1rem; }
       section.queEsBSP section.queEs_textos div.queEs_parrafo i {
@@ -312,14 +219,14 @@ section.queEsBSP {
     section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
       margin: 10px auto; }
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
-        font-size: 1.4rem; }
+        font-size: 1.1rem; }
         section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
           width: 30px;
           height: 30px;
           bottom: -30px; }
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
-        margin-left: 90px;
-        padding-top: 10px; } }
+        margin-left: 119px;
+        padding-top: 22px; } }
 
 /*Dispositivo SMALL*/
 @media (min-width: 351px) and (max-width: 516px) {
@@ -334,7 +241,6 @@ section.queEsBSP {
       margin: 0 auto; }
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
         margin-bottom: 0; } }
->>>>>>> responsive
 
 section.quienesSomos {
   padding: 0 1rem;
@@ -342,7 +248,8 @@ section.quienesSomos {
   flex-direction: column; }
   section.quienesSomos img {
     margin-bottom: 1rem;
-    border-radius: 0 0 26px 13px; }
+    border-radius: 0 0 26px 13px;
+    max-width: 25vw; }
   section.quienesSomos button.btn-primary {
     background-color: #09123d;
     border-color: #09123d;
@@ -368,7 +275,6 @@ section.quienesSomos {
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
-<<<<<<< HEAD
   section.quienesSomos img {
     border-radius: 0 0 45.2px 20px; }
   section.quienesSomos div.texto {
@@ -376,19 +282,10 @@ section.quienesSomos {
     section.quienesSomos div.texto p {
       margin-bottom: 0;
       padding-bottom: 0;
-      font-size: 1rem; } }
-=======
-  section.quienesSomos {
-    font-size: 1.3rem; }
-    section.quienesSomos div.texto {
-      padding-bottom: 1rem; }
-      section.quienesSomos div.texto p {
-        margin-bottom: 0;
-        padding-bottom: 0;
-        font-size: 1rem; } }
+      font-size: 1rem; }
+  /*Dispositivo SMALL*/ }
 
-/*Dispositivo SMALL*/
-@media (min-width: 351px) and (max-width: 516px) {
+@media (min-width: 0px) and (max-width: 350px) and (min-width: 351px) and (max-width: 516px) {
   section.quienesSomos img {
     margin: 0 auto;
     max-width: 62vw;
@@ -491,7 +388,6 @@ input.btnContact {
   color: white;
   padding: 7px 12px;
   border-radius: 5%; }
->>>>>>> responsive
 
 header {
   z-index: 15;
