@@ -92,7 +92,7 @@ main {
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
   main section.presentacion img.imalogotipoHero {
-    margin-top: 10vh; }
+    margin-top: 12vh; }
   main section.presentacion img.asesoriaTuristica {
     padding: 0 1rem; }
   main section.presentacion a {
@@ -110,7 +110,7 @@ section.queEsBSP {
     height: auto;
     display: flex;
     text-align: center;
-    max-width: 56vw;
+    max-width: 1000px;
     margin: 0px auto; }
     section.queEsBSP section.queEs_textos div.queEs_parrafo {
       max-width: 550px;
@@ -138,7 +138,7 @@ section.queEsBSP {
     section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
       position: relative;
       font-family: 'Alfa Slab One';
-      max-width: 90vw;
+      max-width: 800px;
       margin: 40px auto;
       align-self: center;
       /* Blockquote header */
@@ -148,7 +148,7 @@ section.queEsBSP {
         position: relative;
         /* for pseudos */
         color: #09123d;
-        font-size: 1.7rem;
+        font-size: 2.7rem;
         font-weight: normal;
         line-height: 1;
         margin: 0;
@@ -181,22 +181,16 @@ section.queEsBSP {
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
         position: relative;
         color: #313131;
-        font-size: 1.3rem;
+        font-size: 2rem;
         font-weight: 400;
         line-height: 1.2;
         margin: 0;
-        padding-top: 15px;
         z-index: 1;
         margin-left: 150px;
-        padding-left: 12px; }
+        padding-top: 35px;
+        padding-left: 200px; }
         section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
           margin-left: -12px; }
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .divisor-libro svg {
-    width: calc(100% + 1.3px);
-    height: 32px; } }
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
@@ -219,16 +213,19 @@ section.queEsBSP {
       section.queEsBSP section.queEs_textos div.queEs_parrafo i {
         font-size: 1.6rem; }
     section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
-      margin: 10px auto; }
+      margin: 10px auto;
+      max-width: 300px; }
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
-        font-size: 1.4rem; }
+        font-size: 1.1rem; }
         section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
           width: 30px;
           height: 30px;
           bottom: -30px; }
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
-        margin-left: 90px;
-        padding-top: 10px; } }
+        margin-left: 0;
+        padding-left: 150px;
+        padding-top: 10px;
+        font-size: 1rem; } }
 
 /*Dispositivo SMALL*/
 @media (min-width: 351px) and (max-width: 516px) {
@@ -238,12 +235,27 @@ section.queEsBSP {
     flex-direction: column;
     text-align: center;
     align-items: center; }
+    section.queEsBSP section.queEs_textos {
+      flex-direction: column; }
     section.queEsBSP section.slogan .blockquote-wrapper {
       max-width: 87vw;
       margin: 0 auto; }
       section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
         margin-bottom: 0; } }
 
+/*Dispositivo LARGE*/
+@media (min-width: 517px) and (max-width: 980px) {
+  section.queEsBSP section.slogan .blockquote-wrapper {
+    max-width: 800px;
+    margin: 0 auto; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
+      font-size: 2.7rem; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
+      font-size: 2rem;
+      padding-left: 70px;
+      padding-top: 35px; } }
+
+/*Dispositivos EXTRA LARGE*/
 section.quienesSomos {
   padding: 0 1rem;
   display: flex;
@@ -521,7 +533,7 @@ footer {
 /*Dispositivo LARGE*/
 @media (min-width: 517px) and (max-width: 980px) {
   footer section.redes__footer div ul li {
-    padding: 1rem 2rem; }
+    padding: 1rem 1.5rem; }
     footer section.redes__footer div ul li a i {
       font-size: 2.5rem; }
   footer section.copy__footer {

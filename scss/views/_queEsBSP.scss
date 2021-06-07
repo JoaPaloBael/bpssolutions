@@ -5,7 +5,7 @@ section.queEsBSP {
         height: auto;
         display: flex;
         text-align: center;
-        max-width: 56vw;
+        max-width: 1000px;
         margin: 0px auto;
 
         div.queEs_parrafo {
@@ -47,7 +47,7 @@ section.queEsBSP {
             div.blockquote {
                 position: relative;
                 font-family: 'Alfa Slab One';
-                max-width: 90vw;
+                max-width: 800px;
                 margin: 40px auto;
                 align-self: center;
 
@@ -57,7 +57,7 @@ section.queEsBSP {
                     position: relative;
                     /* for pseudos */
                     color: $azul-oscuro;
-                    font-size: 1.7rem;
+                    font-size: 2.7rem;
                     font-weight: normal;
                     line-height: 1;
                     margin: 0;
@@ -99,14 +99,14 @@ section.queEsBSP {
                 h4 {
                     position: relative;
                     color: $gris-oscuro;
-                    font-size: 1.3rem;
+                    font-size: 2rem;
                     font-weight: 400;
                     line-height: 1.2;
                     margin: 0;
-                    padding-top: 15px;
                     z-index: 1;
                     margin-left: 150px;
-                    padding-left: 12px;
+                    padding-top: 35px;
+                    padding-left: 200px;
 
                     &::first-letter {
                         margin-left: -12px;
@@ -114,15 +114,6 @@ section.queEsBSP {
                 }
             }
         }
-    }
-}
-
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .divisor-libro svg {
-        width: calc(100% + 1.3px);
-        height: 32px;
     }
 }
 
@@ -159,9 +150,11 @@ section.queEsBSP {
             .blockquote-wrapper {
                 div.blockquote {
                     margin: 10px auto;
+                    max-width: 300px;
+
 
                     h3 {
-                        font-size: 1.4rem;
+                        font-size: 1.1rem;
 
                         &::after {
                             width: 30px;
@@ -171,8 +164,10 @@ section.queEsBSP {
                     }
 
                     h4 {
-                        margin-left: 90px;
+                        margin-left: 0;
+                        padding-left: 150px;
                         padding-top: 10px;
+                        font-size: 1rem;
                     }
                 }
             }
@@ -188,6 +183,9 @@ section.queEsBSP {
         flex-direction: column;
         text-align: center;
         align-items: center;
+        section.queEs_textos{
+            flex-direction: column;
+        }
         section.slogan {
             .blockquote-wrapper {
                 max-width: 87vw;
@@ -199,4 +197,31 @@ section.queEsBSP {
             }
         }
     }
+}
+
+/*Dispositivo LARGE*/
+@media (min-width: 517px) and (max-width:980px) {
+    section.queEsBSP{
+        section.slogan{
+            .blockquote-wrapper{
+                max-width: 800px;
+                margin: 0 auto;
+                div.blockquote{
+                    h3{
+                        font-size: 2.7rem;
+                    }
+                    h4{
+                        font-size: 2rem;
+                        padding-left: 70px;
+                        padding-top: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Dispositivos EXTRA LARGE*/
+@media (min-width: 981px) and (max-width: 1440px){
+
 }
