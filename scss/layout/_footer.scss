@@ -1,31 +1,37 @@
-
-footer{
+footer {
     background-color: $azul-claro;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     margin-top: 2rem;
 
-    section.redes__footer{
-        div{
-            ul{
+    section.redes__footer {
+        display: flex;
+        justify-content: center;
+        div {
+            ul {
                 display: flex;
                 justify-content: center;
                 padding-left: 0;
                 margin-bottom: 0;
-                li{
-                    padding: 1rem 1rem;
-                    a{
+
+                li {
+                    padding: 1rem 5rem;
+
+                    a {
                         color: $fondo-claro;
                         display: flex;
                         flex: row;
                         align-items: center;
+
                         &:hover {
                             color: $azul-oscuro;
                         }
-                        i{
-                            font-size: 3rem;
+
+                        i {
+                            font-size: 2rem;
                         }
-                        p{
+
+                        p {
                             font-family: 'Roboto', sans-serif;
                             font-size: 1rem;
                             align-self: center;
@@ -38,15 +44,23 @@ footer{
             }
         }
     }
-    section.copy__footer{
+
+    section.copy__footer {
         display: flex;
         text-align: center;
-        p{
+        margin: 0 auto;
+        place-content: center;
+        padding-bottom: 20px;
+
+        p {
             font-family: 'Roboto', sans-serif;
             margin: 1rem .5rem 0 .5rem;
-            a{
+            font-size: 1.6rem;
+
+            a {
                 color: inherit;
-                &:hover{
+
+                &:hover {
                     color: $gris-claro;
                 }
             }
@@ -54,15 +68,115 @@ footer{
     }
 }
 
-/*Dispositivo XS*/
+/*Dispositivo SMALL*/
 @media (min-width: 0px) and (max-width:350px) {
+    footer {
+        section.redes__footer {
+            flex-direction: column;
+            div {
+                ul {
+                    justify-content: space-evenly;
+
+                    li {
+                        padding: 1rem 1.4rem;
+                        a {
+                            i {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.copy__footer {
+            flex-direction: column;
+            max-width: 100%;
+            padding-right: 0;
+            padding-bottom: 10px;
+
+            p.spacer {
+                display: none;
+            }
+
+            p {
+                font-size: 1.3rem;
+                align-self: center;
+                margin: 0.3rem 0 0 0;
+            }
+        }
+    }
+}
+
+/*Dispositivo MEDIUM*/
+@media (min-width: 351px) and (max-width:516px) {
+    footer {
+        section.redes__footer {
+            flex-direction: column;
+            div {
+                ul {
+                    justify-content: center;
+
+                    li {
+                        padding: 1rem 3rem;
+
+                        a {
+                            i {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.copy__footer {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 93vw;
+            padding-right: 0;
+        }
+    }
+}
+
+/*Dispositivo LARGE*/
+@media (min-width: 517px) and (max-width:980px) {
     footer {
         section.redes__footer {
             div {
                 ul {
-                    justify-content: space-evenly;
                     li {
-                        a {
+                        padding: 1rem 2rem;
+                        a{
+                            i{
+                                font-size: 2.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.copy__footer {
+            padding-right: 0;
+            padding-bottom: 10px;
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+/*Dispositivos EXTRA LARGE*/
+@media (min-width: 981px) and (max-width: 1440px){
+    footer{
+        section.redes__footer{
+            display: flex;
+            justify-content: center;
+            div {
+                ul {
+                    li {
+                        padding: 1rem 4rem;
+                        a{
                             i{
                                 font-size: 2rem;
                             }
@@ -71,14 +185,9 @@ footer{
                 }
             }
         }
-        section.copy__footer {
-            flex-direction: column;
-            p.spacer{
-                display: none;
-            }
-            p{
-                margin: 0.3rem 0 0 0;
-            }
+        section.copy__footer{
+            padding-right: 0;
+            place-content: center;
         }
     }
 }

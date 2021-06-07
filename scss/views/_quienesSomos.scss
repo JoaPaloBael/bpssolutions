@@ -2,8 +2,17 @@ section.quienesSomos {
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
+
     img {
         margin-bottom: 1rem;
+        border-radius: 0 0 26px 13px;
+    }
+
+    button.btn-primary {
+        background-color: $azul-oscuro;
+        border-color: $azul-oscuro;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
     }
 
     div.texto {
@@ -46,4 +55,22 @@ section.quienesSomos{
     }
 }
 
+/*Dispositivo SMALL*/
+@media (min-width: 351px) and (max-width:516px) {
+    section.quienesSomos {
+        img {
+            margin: 0 auto;
+            max-width: 62vw;
+            border-radius: 0;
+            margin-right: 3vw;
+        }
+
+        button.btn-primary {
+            width: 59vw;
+            margin: 0 auto;
+            margin-right: 6.4vw;
+        }
+    }
+
+}
 }

@@ -57,3 +57,15 @@ main {
         }
     }
 }
+
+@media (min-width: 351px) and (max-width:516px) {
+
+    /*Dispositivo SMALL*/
+    main{
+        section.presentacion{
+            a{
+                margin-top: 1rem;
+            }
+        }
+    }
+    }

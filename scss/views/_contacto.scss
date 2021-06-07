@@ -1,0 +1,39 @@
+section#contacto {
+    margin: 4rem 2rem;
+
+    div.container {
+        border-radius: 2%;
+        background: #fff;
+
+        .contact-form {
+            margin-bottom: 5%;
+            width: 70%;
+
+            form {
+                border-radius: 5%;
+
+                h3 {
+                    text-align: center;
+                    font-size: 2rem;
+                    padding: 0.5rem;
+                }
+
+                div.row {
+                    .form-control {
+                        border-radius: 1rem;
+
+                    }
+
+                }
+
+            }
+        }
+
+    }
+}
+input.btnContact {
+    background-color: $azul-claro;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5%;
+}

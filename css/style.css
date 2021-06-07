@@ -98,6 +98,7 @@ main {
   main section.presentacion a {
     margin: 0; } }
 
+<<<<<<< HEAD
 section.queEsBSP section.queEs_textos {
   height: auto;
   display: flex;
@@ -114,12 +115,35 @@ section.queEsBSP section.queEs_textos {
       margin-bottom: 0; }
       section.queEsBSP section.queEs_textos div.queEs_parrafo h2 button {
         display: inline;
+=======
+@media (min-width: 351px) and (max-width: 516px) {
+  /*Dispositivo SMALL*/
+  main section.presentacion a {
+    margin-top: 1rem; } }
+
+section.queEsBSP {
+  display: flex;
+  flex-direction: column; }
+  section.queEsBSP section.queEs_textos {
+    height: auto;
+    display: flex;
+    text-align: center;
+    max-width: 56vw;
+    margin: 0px auto; }
+    section.queEsBSP section.queEs_textos div.queEs_parrafo {
+      max-width: 550px;
+      background-color: #e2e3cf;
+      border-radius: 0 0 15px 15px;
+      margin: 1rem; }
+      section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
+>>>>>>> responsive
         background-color: #09123d;
         color: #e2e3cf;
         font-family: 'Alfa Slab One', cursive;
         border-radius: 0 0 10px 10px;
         padding: 1rem 0;
         box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.35); }
+<<<<<<< HEAD
   section.queEsBSP section.queEs_textos div.queEs_parrafo p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
@@ -132,6 +156,20 @@ section.queEsBSP section.queEs_textos {
     padding: 0 20px;
     /* Blockquote main style */ }
     section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote {
+=======
+      section.queEsBSP section.queEs_textos div.queEs_parrafo p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        padding: .5rem;
+        margin-bottom: 0; }
+      section.queEsBSP section.queEs_textos div.queEs_parrafo i {
+        font-size: 2.5rem; }
+  section.queEsBSP section.slogan .blockquote-wrapper {
+    display: flex;
+    padding: 0 20px;
+    /* Blockquote main style */ }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
+>>>>>>> responsive
       position: relative;
       font-family: 'Alfa Slab One';
       max-width: 90vw;
@@ -139,7 +177,11 @@ section.queEsBSP section.queEs_textos {
       align-self: center;
       /* Blockquote header */
       /* Blockquote subheader */ }
+<<<<<<< HEAD
       section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 {
+=======
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
+>>>>>>> responsive
         font-family: 'Alfa Slab One';
         position: relative;
         /* for pseudos */
@@ -152,7 +194,11 @@ section.queEsBSP section.queEs_textos {
         border-radius: 20px;
         padding: 25px;
         /* Blockquote right double quotes */ }
+<<<<<<< HEAD
         section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::before {
+=======
+        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::before {
+>>>>>>> responsive
           content: "";
           position: absolute;
           width: 80px;
@@ -160,7 +206,11 @@ section.queEsBSP section.queEs_textos {
           bottom: -3px;
           left: 50px;
           z-index: 2; }
+<<<<<<< HEAD
         section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3::after {
+=======
+        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
+>>>>>>> responsive
           content: "";
           position: absolute;
           border: 2px solid #09123d;
@@ -172,11 +222,19 @@ section.queEsBSP section.queEs_textos {
           border-bottom: none;
           border-left: none;
           z-index: 3; }
+<<<<<<< HEAD
         section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h3 span {
           font-family: 'Alfa Slab One'; }
       section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4 {
         position: relative;
         color: white;
+=======
+        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 span {
+          font-family: 'Alfa Slab One'; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
+        position: relative;
+        color: #313131;
+>>>>>>> responsive
         font-size: 1.3rem;
         font-weight: 400;
         line-height: 1.2;
@@ -185,8 +243,26 @@ section.queEsBSP section.queEs_textos {
         z-index: 1;
         margin-left: 150px;
         padding-left: 12px; }
+<<<<<<< HEAD
         section.queEsBSP section.queEs_textos section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
           margin-left: -12px; }
+=======
+        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
+          margin-left: -12px; }
+
+.divisor-libro {
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+  .divisor-libro svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px; }
+    .divisor-libro svg .shape-fill {
+      fill: #CCCCCC; }
+>>>>>>> responsive
 
 /** For mobile devices **/
 @media (max-width: 767px) {
@@ -196,6 +272,7 @@ section.queEsBSP section.queEs_textos {
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
+<<<<<<< HEAD
   section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
     font-size: 1.4rem; }
   section.queEsBSP section.queEs_textos div.queEs_parrafo p {
@@ -213,13 +290,64 @@ section.queEsBSP section.queEs_textos {
     section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
       margin-left: 119px;
       padding-top: 22px; } }
+=======
+  section.queEsBSP {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; }
+    section.queEsBSP section.queEs_textos {
+      flex-direction: column;
+      height: auto;
+      display: flex;
+      text-align: center;
+      align-items: center; }
+      section.queEsBSP section.queEs_textos div.queEs_parrafo h3 {
+        font-size: 1.5rem; }
+      section.queEsBSP section.queEs_textos div.queEs_parrafo p {
+        font-size: 1rem; }
+      section.queEsBSP section.queEs_textos div.queEs_parrafo i {
+        font-size: 1.6rem; }
+    section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
+      margin: 10px auto; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3 {
+        font-size: 1.4rem; }
+        section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h3::after {
+          width: 30px;
+          height: 30px;
+          bottom: -30px; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4 {
+        margin-left: 90px;
+        padding-top: 10px; } }
+
+/*Dispositivo SMALL*/
+@media (min-width: 351px) and (max-width: 516px) {
+  section.queEsBSP {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; }
+    section.queEsBSP section.slogan .blockquote-wrapper {
+      max-width: 87vw;
+      margin: 0 auto; }
+      section.queEsBSP section.slogan .blockquote-wrapper div.blockquote {
+        margin-bottom: 0; } }
+>>>>>>> responsive
 
 section.quienesSomos {
   padding: 0 1rem;
   display: flex;
   flex-direction: column; }
   section.quienesSomos img {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    border-radius: 0 0 26px 13px; }
+  section.quienesSomos button.btn-primary {
+    background-color: #09123d;
+    border-color: #09123d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem; }
   section.quienesSomos div.texto {
     background-color: #457373;
     display: flex;
@@ -240,6 +368,7 @@ section.quienesSomos {
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width: 350px) {
+<<<<<<< HEAD
   section.quienesSomos img {
     border-radius: 0 0 45.2px 20px; }
   section.quienesSomos div.texto {
@@ -248,6 +377,121 @@ section.quienesSomos {
       margin-bottom: 0;
       padding-bottom: 0;
       font-size: 1rem; } }
+=======
+  section.quienesSomos {
+    font-size: 1.3rem; }
+    section.quienesSomos div.texto {
+      padding-bottom: 1rem; }
+      section.quienesSomos div.texto p {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 1rem; } }
+
+/*Dispositivo SMALL*/
+@media (min-width: 351px) and (max-width: 516px) {
+  section.quienesSomos img {
+    margin: 0 auto;
+    max-width: 62vw;
+    border-radius: 0;
+    margin-right: 3vw; }
+  section.quienesSomos button.btn-primary {
+    width: 59vw;
+    margin: 0 auto;
+    margin-right: 6.4vw; } }
+
+.skewed2 {
+  height: 37px;
+  background: #233a5e;
+  transform: skewY(-4deg);
+  margin-top: -26px;
+  transform-origin: top right; }
+
+section#servicios {
+  background: #233a5e; }
+  section#servicios .skewed {
+    height: 500px;
+    background: #233a5e;
+    transform: skewY(5deg);
+    margin-top: 57px;
+    transform-origin: top right; }
+  section#servicios .listaServicios {
+    padding-bottom: 2rem; }
+    section#servicios .listaServicios h4 {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      padding: 0 5% 7% 5%;
+      font-size: 1.5rem; }
+    section#servicios .listaServicios ul {
+      padding-left: .9rem; }
+      section#servicios .listaServicios ul li {
+        color: white;
+        display: flex;
+        font-size: 1.3rem; }
+        section#servicios .listaServicios ul li i {
+          margin: 3% 5% 0 0; }
+    section#servicios .listaServicios button.btn-primary {
+      background-color: #457373;
+      border-color: #233a5e; }
+    section#servicios .listaServicios .modal li {
+      color: black; }
+
+/*Dispositivo XS*/
+@media (min-width: 0px) and (max-width: 350px) {
+  section#servicios .skewed {
+    height: 36px;
+    background: #233a5e;
+    transform: skewY(5deg);
+    margin-top: 57px;
+    transform-origin: top right; }
+  section#servicios .listaServicios button.btn-primary {
+    width: 90%;
+    height: 54px;
+    font-size: 1.3rem;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    align-items: center; } }
+
+/*Dispositivo SMALL*/
+@media (min-width: 351px) and (max-width: 516px) {
+  .skewed2 {
+    margin-top: -37px; }
+  section#servicios .skewed {
+    height: 54px; }
+  section#servicios .listaServicios {
+    display: flex;
+    flex-direction: column; }
+    section#servicios .listaServicios ul {
+      max-width: 81vw;
+      margin: 0 auto; }
+    section#servicios .listaServicios button.btn-primary {
+      font-size: 1.3rem;
+      margin: 0 auto;
+      width: 55vw; } }
+
+section#contacto {
+  margin: 4rem 2rem; }
+  section#contacto div.container {
+    border-radius: 2%;
+    background: #fff; }
+    section#contacto div.container .contact-form {
+      margin-bottom: 5%;
+      width: 70%; }
+      section#contacto div.container .contact-form form {
+        border-radius: 5%; }
+        section#contacto div.container .contact-form form h3 {
+          text-align: center;
+          font-size: 2rem;
+          padding: 0.5rem; }
+        section#contacto div.container .contact-form form div.row .form-control {
+          border-radius: 1rem; }
+
+input.btnContact {
+  background-color: #457373;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 5%; }
+>>>>>>> responsive
 
 header {
   z-index: 15;
@@ -297,49 +541,106 @@ footer {
   font-family: 'Roboto', sans-serif;
   border-radius: 10px;
   margin-top: 2rem; }
-  footer section.redes__footer div ul {
+  footer section.redes__footer {
     display: flex;
-    justify-content: center;
-    padding-left: 0;
-    margin-bottom: 0; }
-    footer section.redes__footer div ul li {
-      padding: 1rem 1rem; }
-      footer section.redes__footer div ul li a {
-        color: #e2e3cf;
-        display: flex;
-        flex: row;
-        align-items: center; }
-        footer section.redes__footer div ul li a:hover {
-          color: #09123d; }
-        footer section.redes__footer div ul li a i {
-          font-size: 3rem; }
-        footer section.redes__footer div ul li a p {
-          font-family: 'Roboto', sans-serif;
-          font-size: 1rem;
-          align-self: center;
-          margin-bottom: 0;
-          margin-left: 14px;
-          display: none; }
+    justify-content: center; }
+    footer section.redes__footer div ul {
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
+      margin-bottom: 0; }
+      footer section.redes__footer div ul li {
+        padding: 1rem 5rem; }
+        footer section.redes__footer div ul li a {
+          color: #e2e3cf;
+          display: flex;
+          flex: row;
+          align-items: center; }
+          footer section.redes__footer div ul li a:hover {
+            color: #09123d; }
+          footer section.redes__footer div ul li a i {
+            font-size: 2rem; }
+          footer section.redes__footer div ul li a p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            align-self: center;
+            margin-bottom: 0;
+            margin-left: 14px;
+            display: none; }
   footer section.copy__footer {
     display: flex;
-    text-align: center; }
+    text-align: center;
+    margin: 0 auto;
+    place-content: center;
+    padding-bottom: 20px; }
     footer section.copy__footer p {
       font-family: 'Roboto', sans-serif;
-      margin: 1rem .5rem 0 .5rem; }
+      margin: 1rem .5rem 0 .5rem;
+      font-size: 1.6rem; }
       footer section.copy__footer p a {
         color: inherit; }
         footer section.copy__footer p a:hover {
           color: #CCCCCC; }
 
-/*Dispositivo XS*/
+/*Dispositivo SMALL*/
 @media (min-width: 0px) and (max-width: 350px) {
-  footer section.redes__footer div ul {
-    justify-content: space-evenly; }
-    footer section.redes__footer div ul li a i {
-      font-size: 2rem; }
-  footer section.copy__footer {
+  footer section.redes__footer {
     flex-direction: column; }
+    footer section.redes__footer div ul {
+      justify-content: space-evenly; }
+      footer section.redes__footer div ul li {
+        padding: 1rem 1.4rem; }
+        footer section.redes__footer div ul li a i {
+          font-size: 2rem; }
+  footer section.copy__footer {
+    flex-direction: column;
+    max-width: 100%;
+    padding-right: 0;
+    padding-bottom: 10px; }
     footer section.copy__footer p.spacer {
       display: none; }
     footer section.copy__footer p {
+      font-size: 1.3rem;
+      align-self: center;
       margin: 0.3rem 0 0 0; } }
+
+/*Dispositivo MEDIUM*/
+@media (min-width: 351px) and (max-width: 516px) {
+  footer section.redes__footer {
+    flex-direction: column; }
+    footer section.redes__footer div ul {
+      justify-content: center; }
+      footer section.redes__footer div ul li {
+        padding: 1rem 3rem; }
+        footer section.redes__footer div ul li a i {
+          font-size: 2rem; }
+  footer section.copy__footer {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 93vw;
+    padding-right: 0; } }
+
+/*Dispositivo LARGE*/
+@media (min-width: 517px) and (max-width: 980px) {
+  footer section.redes__footer div ul li {
+    padding: 1rem 2rem; }
+    footer section.redes__footer div ul li a i {
+      font-size: 2.5rem; }
+  footer section.copy__footer {
+    padding-right: 0;
+    padding-bottom: 10px; }
+    footer section.copy__footer p {
+      font-size: 1.2rem; } }
+
+/*Dispositivos EXTRA LARGE*/
+@media (min-width: 981px) and (max-width: 1440px) {
+  footer section.redes__footer {
+    display: flex;
+    justify-content: center; }
+    footer section.redes__footer div ul li {
+      padding: 1rem 4rem; }
+      footer section.redes__footer div ul li a i {
+        font-size: 2rem; }
+  footer section.copy__footer {
+    padding-right: 0;
+    place-content: center; } }
