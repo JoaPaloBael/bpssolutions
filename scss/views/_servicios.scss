@@ -118,3 +118,12 @@ section#servicios {
         }
     }
 }
+
+/*Dispositivos EXTRA LARGE*/
+@media (min-width: 981px) and (max-width: 1440px){
+    .section#servicios{
+        .skewed{
+            margin-top: 50px;
+        }
+    }
+}

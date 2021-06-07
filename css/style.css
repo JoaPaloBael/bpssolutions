@@ -407,6 +407,11 @@ section#servicios {
       margin: 0 auto;
       width: 55vw; } }
 
+/*Dispositivos EXTRA LARGE*/
+@media (min-width: 981px) and (max-width: 1440px) {
+  .section#servicios .skewed {
+    margin-top: 50px; } }
+
 section#contacto {
   max-width: 1100px;
   margin: 4rem auto; }
