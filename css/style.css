@@ -192,19 +192,6 @@ section.queEsBSP {
         section.queEsBSP section.slogan .blockquote-wrapper div.blockquote h4::first-letter {
           margin-left: -12px; }
 
-.divisor-libro {
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-  .divisor-libro svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 61px; }
-    .divisor-libro svg .shape-fill {
-      fill: #CCCCCC; }
-
 /** For mobile devices **/
 @media (max-width: 767px) {
   .divisor-libro svg {
